@@ -97,6 +97,16 @@ function calculateADV(gen, attacker, defender, move, field) {
             bp = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
             desc.moveBP = bp;
             break;
+        case 'Facade':
+            if (attacker.hasStatus('par', 'psn', 'tox', 'brn')) {
+                bp = 140;
+                desc.moveBP = bp;
+            }
+            else {
+                bp = 70;
+                desc.moveBP = bp;
+            }
+            break;
         default:
             bp = move.bp;
     }
