@@ -41,7 +41,12 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Magma Grunt #1 (Mt. Chimney)": {"ability":"Static","level":35 ,"item":"Brightpowder","moves":[ "Thunderbolt", "Thunder Wave", "Fire Punch", "Seismic Toss" ],"nature":"Bold"}
  ,"Expert Timothy": {"ability":"Static","level":46 ,"item":"Quick Claw","moves":[ "Thunderbolt", "Fire Punch", "Hidden Power Water", "Thunder Wave" ],"nature":"Naive"}
  ,"Breeder David": {"ability":"Static","level":51 ,"item":"Silverpowder","moves":[ "Thunder Wave", "Fire Punch", "Thunderbolt", "Signal Beam"]}
- ,"Trainer May 4": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Ice", "Fire Punch"]}
+ ,"Trainer Brendan 4 (w/ Mudkip)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunderbolt", "Thunder Wave", "Hidden Power Water", "Fire Punch" ],"nature":"Modest"}
+ ,"Trainer Brendan 4 (w/ Torchic)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Ice", "Fire Punch" ],"nature":"Modest"}
+ ,"Trainer Brendan 4 (w/ Treecko)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Grass", "Fire Punch" ],"nature":"Calm"}
+ ,"Trainer May 4 (w/ Mudkip)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Water", "Fire Punch" ]}
+ ,"Trainer May 4 (w/ Torchic)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Ice", "Fire Punch" ]}
+ ,"Trainer May 4 (w/ Treecko)": {"ability":"Static","level":59 ,"item":"Lum Berry","moves":[ "Thunder Wave", "Thunderbolt", "Hidden Power Grass", "Fire Punch" ]}
  ,"Magma Grunt #6 (Magma Hideout)": {"ability":"Static","level":58 ,"item":"Brightpowder","moves":[ "Tail Glow", "Thunderbolt", "Fire Punch", "Hidden Power Ice" ],"nature":"Bold"}
  ,"Aqua Grunt #4 (Seafloor Cavern)": {"ability":"Static","level":67 ,"item":"Leftovers","moves":[ "Flatter", "Thunder", "Hidden Power Water", "Signal Beam"]}
  ,"Swimmerm Santiago": {"ability":"Static","level":66,"moves":[ "Shock Wave", "Thunder Punch", "Thunderbolt", "Body Slam" ],"nature":"Naughty"}
