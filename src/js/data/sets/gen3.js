@@ -218,7 +218,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
    ,"Kindler Hayden": {"ability":"Blaze","level":25 ,"item":"Lum Berry","moves":[ "Dragon Rage", "Flamethrower", "Secret Power", "Protect" ],"nature":"Careful"}}
  ,"Chikorita":{"School Kid Karen": {"ability":"Overgrow","level":9,"moves":["Synthesis", "Mega Drain", "Secret Power" ],"nature":"Impish","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}
  ,"Trainer Brendan 1.5 (w/ Torchic)": {"ability":"Overgrow","level":15 ,"item":"Miracle Seed","moves":[ "Mega Drain", "Secret Power", "Light Screen", "Synthesis" ]}
- ,"Trainer May 1.5 (w/ Torchic)": {"ability":"Overgrow","level":15 ,"item":"Sitrus Berry","moves":[ "Light Screen", "Reflect", "Mega Drain", "Secret Power" ],"nature":"Rash"}
+ ,"Trainer May 1.5 (w/ Torchic)": {"ability":"Overgrow","level":15 ,"item":"Sitrus Berry","moves":[ "Light Screen", "Reflect", "Mega Drain", "Secret Power" ],"nature":"Rash"}}
  ,"Chimecho":{"Collector Edwin": {"ability":"Levitate","level":19,"moves":[ "Signal Beam", "Psybeam", "Recover", "Safeguard" ],"nature":"Impish"}
  ,"Psychic Brandi": {"ability":"Levitate","level":22,"moves":[ "Recover", "Psybeam", "Secret Power", "Thunder Wave" ],"nature":"Quiet"}
  ,"Magma Grunt #8 (Route 114)": {"ability":"Levitate","level":36 ,"item":"Leftovers","moves":[ "Hypnosis", "Recover", "Dream Eater", "Nightmare" ],"nature":"Careful"}
@@ -1663,7 +1663,3 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Zapdos":{"Leader Winona": {"ability":"Pressure","level":55 ,"item":"Lum Berry","moves":[ "Sky Attack", "Thunderbolt", "Hidden Power Ice", "Return" ],"nature":"Careful"}}
  ,"Zigzagoon":{"Youngster Calvin": {"ability":"Guts","level":6,"moves":[ "Swift", "Sand-attack" ],"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
  ,"Zubat":{"School Kid Josh": {"ability":"Inner Focus","level":11 ,"item":"Cheri Berry","moves":[ "Giga Drain", "Aerial Ace", "Hypnosis", "Leech Life" ],"nature":"Mild"}}};
-
-
-
-
