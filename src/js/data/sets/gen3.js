@@ -1690,7 +1690,3 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Zapdos":{"Leader Winona": {"ability":"Pressure","level":55 ,"item":"Lum Berry","moves":[ "Sky Attack", "Thunderbolt", "Hidden Power Ice", "Return" ],"nature":"Careful"}}
  ,"Zigzagoon":{"Youngster Calvin": {"ability":"Guts","level":6,"moves":[ "Swift", "Sand-attack" ],"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
  ,"Zubat":{"School Kid Josh": {"ability":"Inner Focus","level":11 ,"item":"Cheri Berry","moves":[ "Giga Drain", "Aerial Ace", "Hypnosis", "Leech Life" ],"nature":"Mild"}}};
-
-
-
-
