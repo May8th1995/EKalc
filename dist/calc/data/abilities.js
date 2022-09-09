@@ -363,7 +363,7 @@ exports.Abilities = Abilities;
 var Ability = (function () {
     function Ability(name) {
         this.kind = 'Ability';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
     }
     return Ability;

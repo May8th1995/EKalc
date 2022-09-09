@@ -57,8 +57,8 @@ describe('Stats', function () {
         })).toBe(13);
     });
     test('gen 2 modifications', function () {
-        expect(util_1.getModifiedStat(158, -1, data_1.Generations.get(2))).toBe(104);
-        expect(util_1.getModifiedStat(238, -1, data_1.Generations.get(2))).toBe(157);
+        expect((0, util_1.getModifiedStat)(158, -1, data_1.Generations.get(2))).toBe(104);
+        expect((0, util_1.getModifiedStat)(238, -1, data_1.Generations.get(2))).toBe(157);
     });
 });
 //# sourceMappingURL=stats.test.js.map

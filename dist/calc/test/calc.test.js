@@ -41,24 +41,24 @@ exports.__esModule = true;
 var helper_1 = require("./helper");
 describe('calc', function () {
     describe('Multi-Gen', function () {
-        helper_1.inGens(4, 7, function (_a) {
+        (0, helper_1.inGens)(4, 7, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Grass Knot (gen " + gen + ")", function () {
+            test("Grass Knot (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Groudon'), Pokemon('Groudon'), Move('Grass Knot'));
                 expect(result.range()).toEqual([190, 224]);
             });
         });
-        helper_1.inGens(4, 7, function (_a) {
+        (0, helper_1.inGens)(4, 7, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Arceus Plate (gen " + gen + ")", function () {
+            test("Arceus Plate (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Arceus', { item: 'Meadow Plate' }), Pokemon('Blastoise'), Move('Judgment'));
                 expect(result.range()).toEqual([194, 230]);
                 expect(result.desc()).toBe('0 SpA Meadow Plate Arceus Judgment vs. 0 HP / 0 SpD Blastoise: 194-230 (64.8 - 76.9%) -- guaranteed 2HKO');
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Night Shade / Seismic Toss (gen " + gen + ")", function () {
+            test("Night Shade / Seismic Toss (gen ".concat(gen, ")"), function () {
                 var e_1, _a;
                 var mew = Pokemon('Mew', { level: 50 });
                 var vulpix = Pokemon('Vulpix');
@@ -68,8 +68,8 @@ describe('calc', function () {
                         var result = calculate(mew, vulpix, move);
                         expect(result.damage).toBe(50);
                         expect(result.desc()).toBe(gen < 3
-                            ? "Lvl 50 Mew " + move.name + " vs. Vulpix: 50-50 (17.9 - 17.9%) -- guaranteed 6HKO"
-                            : "Lvl 50 Mew " + move.name + " vs. 0 HP Vulpix: 50-50 (23 - 23%) -- guaranteed 5HKO");
+                            ? "Lvl 50 Mew ".concat(move.name, " vs. Vulpix: 50-50 (17.9 - 17.9%) -- guaranteed 6HKO")
+                            : "Lvl 50 Mew ".concat(move.name, " vs. 0 HP Vulpix: 50-50 (23 - 23%) -- guaranteed 5HKO"));
                     }
                 }
                 catch (e_1_1) { e_1 = { error: e_1_1 }; }
@@ -81,7 +81,7 @@ describe('calc', function () {
                 }
             });
         });
-        helper_1.tests('Comet Punch', function (_a) {
+        (0, helper_1.tests)('Comet Punch', function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             expect(calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Comet Punch'))).toMatch(gen, {
                 1: { range: [36, 43], desc: 'Snorlax Comet Punch (3 hits) vs. Vulpix', result: '(38.7 - 46.2%) -- approx. 3HKO' },
@@ -89,32 +89,32 @@ describe('calc', function () {
                 4: { range: [43, 52], result: '(59.4 - 71.8%) -- approx. 2HKO' }
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Immunity (gen " + gen + ")", function () {
+            test("Immunity (gen ".concat(gen, ")"), function () {
                 expect(calculate(Pokemon('Snorlax'), Pokemon('Gengar'), Move('Hyper Beam')).damage).toBe(0);
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Non-damaging (gen " + gen + ")", function () {
+            test("Non-damaging (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Barrier'));
                 expect(result.damage).toBe(0);
                 expect(result.desc()).toBe('Snorlax Barrier vs. Vulpix: 0-0 (0 - 0%)');
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
-            test("Protect (gen " + gen + ")", function () {
+            test("Protect (gen ".concat(gen, ")"), function () {
                 var field = Field({ defenderSide: { isProtected: true } });
                 var snorlax = Pokemon('Snorlax');
                 var chansey = Pokemon('Chansey');
                 expect(calculate(snorlax, chansey, Move('Hyper Beam'), field).damage).toBe(0);
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
-            test("Critical hits ignore attack decreases (gen " + gen + ")", function () {
+            test("Critical hits ignore attack decreases (gen ".concat(gen, ")"), function () {
                 var field = Field({ defenderSide: { isReflect: true } });
                 var mew = Pokemon('Mew', { status: 'brn' });
                 var vulpix = Pokemon('Vulpix');
@@ -154,9 +154,9 @@ describe('calc', function () {
                 }
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        (0, helper_1.inGens)(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Struggle vs. Ghost (gen " + gen + ")", function () {
+            test("Struggle vs. Ghost (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Mew'), Pokemon('Gengar'), Move('Struggle'));
                 if (gen < 2) {
                     expect(result.range()[1]).toEqual(0);
@@ -166,9 +166,9 @@ describe('calc', function () {
                 }
             });
         });
-        helper_1.inGens(3, 8, function (_a) {
+        (0, helper_1.inGens)(3, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
-            test("Weather Ball should change type depending on the weather (gen " + gen + ")", function () {
+            test("Weather Ball should change type depending on the weather (gen ".concat(gen, ")"), function () {
                 var e_2, _a;
                 var weathers = [
                     {
@@ -225,7 +225,7 @@ describe('calc', function () {
                         var _c = __read(gen === 3 && type === 'Rock' ? ['Atk', 'Def'] : ['SpA', 'SpD'], 2), atk = _c[0], def = _c[1];
                         var result = calculate(Pokemon('Castform'), Pokemon('Bulbasaur'), Move('Weather Ball'), Field({ weather: weather }));
                         expect(result.range()).toEqual(dmg.range);
-                        expect(result.desc()).toBe("0 " + atk + " Castform Weather Ball (100 BP " + type + ") vs. 0 HP / 0 " + def + " Bulbasaur in " + weather + ": " + dmg.range[0] + "-" + dmg.range[1] + " " + dmg.desc);
+                        expect(result.desc()).toBe("0 ".concat(atk, " Castform Weather Ball (100 BP ").concat(type, ") vs. 0 HP / 0 ").concat(def, " Bulbasaur in ").concat(weather, ": ").concat(dmg.range[0], "-").concat(dmg.range[1], " ").concat(dmg.desc));
                     }
                 }
                 catch (e_2_1) { e_2 = { error: e_2_1 }; }
@@ -237,24 +237,24 @@ describe('calc', function () {
                 }
             });
         });
-        helper_1.inGens(6, 8, function (_a) {
+        (0, helper_1.inGens)(6, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Thousand Arrows and Ring Target Should negate damage nullfiers (gen " + gen + ")", function () {
+            test("Thousand Arrows and Ring Target Should negate damage nullfiers (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Zygarde'), Pokemon('Swellow'), Move('Thousand Arrows'));
                 expect(result.range()).toEqual([147, 174]);
                 expect(result.desc()).toBe('0 Atk Zygarde Thousand Arrows vs. 0 HP / 0 Def Swellow: 147-174 (56.3 - 66.6%) -- guaranteed 2HKO');
             });
         });
-        helper_1.inGen(8, function (_a) {
+        (0, helper_1.inGen)(8, function (_a) {
             var gen = _a.gen, Pokemon = _a.Pokemon;
-            test("Pokemon should double their HP stat when dynamaxing (gen " + gen + ")", function () {
+            test("Pokemon should double their HP stat when dynamaxing (gen ".concat(gen, ")"), function () {
                 var munchlax = Pokemon('Munchlax', { isDynamaxed: true });
                 expect(munchlax.curHP()).toBe(822);
             });
         });
-        helper_1.inGens(7, 8, function (_a) {
+        (0, helper_1.inGens)(7, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
-            test("Psychic Terrain (gen " + gen + ")", function () {
+            test("Psychic Terrain (gen ".concat(gen, ")"), function () {
                 var field = Field({ terrain: 'Psychic' });
                 var Mewtwo = Pokemon('Mewtwo', {
                     nature: 'Timid',
@@ -284,9 +284,9 @@ describe('calc', function () {
                 expect(result.range()).toEqual([0, 0]);
             });
         });
-        helper_1.inGens(6, 8, function (_a) {
+        (0, helper_1.inGens)(6, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Parental Bond (gen " + gen + ")", function () {
+            test("Parental Bond (gen ".concat(gen, ")"), function () {
                 var result = calculate(Pokemon('Kangaskhan-Mega', { evs: { atk: 152 } }), Pokemon('Amoonguss', { nature: 'Bold', evs: { hp: 252, def: 152 } }), Move('Frustration'));
                 if (gen === 6) {
                     expect(result.damage).toEqual([
@@ -324,7 +324,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 1', function () {
-        helper_1.inGen(1, function (_a) {
+        (0, helper_1.inGen)(1, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar'), Pokemon('Chansey'), Move('Thunderbolt'));
@@ -339,7 +339,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 2', function () {
-        helper_1.inGen(2, function (_a) {
+        (0, helper_1.inGen)(2, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar'), Pokemon('Chansey', { item: 'Leftovers' }), Move('Dynamic Punch'));
@@ -375,7 +375,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 3', function () {
-        helper_1.inGen(3, function (_a) {
+        (0, helper_1.inGen)(3, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {
@@ -433,7 +433,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 4', function () {
-        helper_1.inGen(4, function (_a) {
+        (0, helper_1.inGen)(4, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {
@@ -477,7 +477,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 5', function () {
-        helper_1.inGen(5, function (_a) {
+        (0, helper_1.inGen)(5, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {
@@ -496,7 +496,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 6', function () {
-        helper_1.inGen(6, function (_a) {
+        (0, helper_1.inGen)(6, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {
@@ -514,7 +514,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 7', function () {
-        helper_1.inGen(7, function (_a) {
+        (0, helper_1.inGen)(7, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             var abomasnow = Pokemon('Abomasnow', {
                 item: 'Icy Rock',
@@ -645,7 +645,7 @@ describe('calc', function () {
         });
     });
     describe('Gen 8', function () {
-        helper_1.inGen(8, function (_a) {
+        (0, helper_1.inGen)(8, function (_a) {
             var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {

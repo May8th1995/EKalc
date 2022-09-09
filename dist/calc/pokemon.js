@@ -32,14 +32,14 @@ var Pokemon = (function () {
         var e_1, _a;
         if (options === void 0) { options = {}; }
         var _b;
-        this.species = util_1.extend(true, {}, gen.species.get(util_1.toID(name)), options.overrides);
+        this.species = (0, util_1.extend)(true, {}, gen.species.get((0, util_1.toID)(name)), options.overrides);
         this.gen = gen;
         this.name = options.name || name;
         this.types = this.species.types;
         this.isDynamaxed = !!options.isDynamaxed;
         this.weightkg = this.species.weightkg;
         if (this.weightkg === 0 && !this.isDynamaxed && this.species.baseSpecies) {
-            this.weightkg = gen.species.get(util_1.toID(this.species.baseSpecies)).weightkg;
+            this.weightkg = gen.species.get((0, util_1.toID)(this.species.baseSpecies)).weightkg;
         }
         this.level = options.level || 100;
         this.gender = options.gender || this.species.gender || 'M';
@@ -152,9 +152,9 @@ var Pokemon = (function () {
             item: this.item,
             gender: this.gender,
             nature: this.nature,
-            ivs: util_1.extend(true, {}, this.ivs),
-            evs: util_1.extend(true, {}, this.evs),
-            boosts: util_1.extend(true, {}, this.boosts),
+            ivs: (0, util_1.extend)(true, {}, this.ivs),
+            evs: (0, util_1.extend)(true, {}, this.evs),
+            boosts: (0, util_1.extend)(true, {}, this.boosts),
             originalCurHP: this.originalCurHP,
             status: this.status,
             toxicCounter: this.toxicCounter,
@@ -166,7 +166,7 @@ var Pokemon = (function () {
         return stats_1.Stats.calcStat(gen, stat, this.species.baseStats[stat], this.ivs[stat], this.evs[stat], this.level, this.nature);
     };
     Pokemon.getForme = function (gen, speciesName, item, moveName) {
-        var species = gen.species.get(util_1.toID(speciesName));
+        var species = gen.species.get((0, util_1.toID)(speciesName));
         if (!species || !species.otherFormes) {
             return speciesName;
         }
@@ -188,7 +188,7 @@ var Pokemon = (function () {
         if (match === void 0) { match = true; }
         var cur = {};
         if (current) {
-            util_1.assignWithout(cur, current, SPC);
+            (0, util_1.assignWithout)(cur, current, SPC);
             if (current.spc) {
                 cur.spa = current.spc;
                 cur.spd = current.spc;

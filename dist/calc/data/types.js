@@ -341,7 +341,7 @@ var RBY = {
         Dragon: 2
     }
 };
-var GSC = util_1.extend(true, {}, RBY, {
+var GSC = (0, util_1.extend)(true, {}, RBY, {
     '???': { Dark: 1, Steel: 1 },
     Normal: { Dark: 1, Steel: 0.5 },
     Grass: { Dark: 1, Steel: 0.5 },
@@ -402,7 +402,7 @@ var GSC = util_1.extend(true, {}, RBY, {
 var ADV = GSC;
 var DPP = GSC;
 var BW = GSC;
-var XY = util_1.extend(true, {}, GSC, {
+var XY = (0, util_1.extend)(true, {}, GSC, {
     '???': { Fairy: 1 },
     Normal: { Fairy: 1 },
     Grass: { Fairy: 1 },
@@ -483,7 +483,7 @@ exports.Types = Types;
 var Type = (function () {
     function Type(name, effectiveness) {
         this.kind = 'Type';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
         this.effectiveness = effectiveness;
     }
