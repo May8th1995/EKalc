@@ -1498,7 +1498,7 @@ var GSC_PATCH = {
         weightkg: 38
     }
 };
-var GSC = util_1.extend(true, {}, RBY, GSC_PATCH);
+var GSC = (0, util_1.extend)(true, {}, RBY, GSC_PATCH);
 var ADV_PATCH = {
     Abra: { abilities: { 0: 'Synchronize' } },
     Aerodactyl: { abilities: { 0: 'Pressure' } },
@@ -2684,7 +2684,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Pickup' }
     }
 };
-var ADV = util_1.extend(true, {}, GSC, ADV_PATCH);
+var ADV = (0, util_1.extend)(true, {}, GSC, ADV_PATCH);
 var DPP_PATCH = {
     Aipom: { nfe: true },
     Dusclops: { nfe: true },
@@ -3764,7 +3764,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Speed Boost' }
     }
 };
-var DPP = util_1.extend(true, {}, ADV, DPP_PATCH);
+var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
@@ -4984,7 +4984,7 @@ var BW_PATCH = {
         nfe: true
     }
 };
-var BW = util_1.extend(true, {}, DPP, BW_PATCH);
+var BW = (0, util_1.extend)(true, {}, DPP, BW_PATCH);
 delete BW['Pichu'].otherFormes;
 delete BW['Pichu-Spiky-eared'];
 var XY_PATCH = {
@@ -6136,7 +6136,7 @@ var XY_PATCH = {
         gender: 'N'
     }
 };
-var XY = util_1.extend(true, {}, BW, XY_PATCH);
+var XY = (0, util_1.extend)(true, {}, BW, XY_PATCH);
 XY['Arceus'].otherFormes.push('Arceus-Fairy');
 XY['Arceus'].otherFormes.sort();
 var SM_PATCH = {
@@ -7438,7 +7438,7 @@ var SM_PATCH = {
         gender: 'N'
     }
 };
-var SM = util_1.extend(true, {}, XY, SM_PATCH);
+var SM = (0, util_1.extend)(true, {}, XY, SM_PATCH);
 delete SM['Pikachu-Cosplay'];
 delete SM['Pikachu-Rock-Star'];
 delete SM['Pikachu-Belle'];
@@ -8652,7 +8652,7 @@ var SS_PATCH = {
         baseSpecies: 'Zigzagoon'
     }
 };
-var SS = util_1.extend(true, {}, SM, SS_PATCH);
+var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH);
 delete SS['Pikachu-Starter'];
 delete SS['Eevee-Starter'];
 exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS];
@@ -8693,7 +8693,7 @@ exports.Species = Species;
 var Specie = (function () {
     function Specie(name, data) {
         this.kind = 'Species';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
         var baseStats = {};
         baseStats.hp = data.bs.hp;
@@ -8703,7 +8703,7 @@ var Specie = (function () {
         baseStats.spd = gen >= 2 ? data.bs.sd : data.bs.sl;
         baseStats.spe = data.bs.sp;
         this.baseStats = baseStats;
-        util_1.assignWithout(this, data, Specie.EXCLUDE);
+        (0, util_1.assignWithout)(this, data, Specie.EXCLUDE);
     }
     Specie.EXCLUDE = new Set(['bs']);
     return Specie;

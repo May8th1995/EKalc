@@ -109,7 +109,7 @@ var Nature = (function () {
     function Nature(name, _a) {
         var _b = __read(_a, 2), plus = _b[0], minus = _b[1];
         this.kind = 'Nature';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
         this.plus = plus;
         this.minus = minus;

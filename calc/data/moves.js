@@ -332,7 +332,7 @@ var GSC_PATCH = {
     'Steel Wing': { bp: 80, type: 'Steel' },
     'Vital Throw': { bp: 70, type: 'Fighting' }
 };
-var GSC = util_1.extend(true, {}, RBY, GSC_PATCH);
+var GSC = (0, util_1.extend)(true, {}, RBY, GSC_PATCH);
 var ADV_PATCH = {
     Acid: { target: 'allAdjacentFoes' },
     Bide: { makesContact: true },
@@ -570,7 +570,7 @@ var ADV_PATCH = {
     'Water Spout': { bp: 150, type: 'Water', target: 'allAdjacentFoes', recoil: [1, 4] },
     Yawn: { bp: 0, category: 'Status', type: 'Normal' }
 };
-var ADV = util_1.extend(true, {}, GSC, ADV_PATCH);
+var ADV = (0, util_1.extend)(true, {}, GSC, ADV_PATCH);
 var DPP_PATCH = {
     Absorb: { category: 'Special' },
     'Arm Thrust': { category: 'Physical' },
@@ -1172,7 +1172,7 @@ var DPP_PATCH = {
         category: 'Physical'
     }
 };
-var DPP = util_1.extend(true, {}, ADV, DPP_PATCH);
+var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
     'Air Slash': { secondaries: true },
     Blizzard: { secondaries: true },
@@ -1671,7 +1671,7 @@ var BW_PATCH = {
     },
     'Work Up': { bp: 0, type: 'Normal' }
 };
-var BW = util_1.extend(true, {}, DPP, BW_PATCH);
+var BW = (0, util_1.extend)(true, {}, DPP, BW_PATCH);
 delete BW['Faint Attack'];
 var XY_PATCH = {
     'Ice Ball': { isBullet: true },
@@ -1964,7 +1964,7 @@ var XY_PATCH = {
     'Trick-or-Treat': { bp: 0, type: 'Ghost' },
     'Venom Drench': { bp: 0, type: 'Poison', target: 'allAdjacentFoes' }
 };
-var XY = util_1.extend(true, {}, BW, XY_PATCH);
+var XY = (0, util_1.extend)(true, {}, BW, XY_PATCH);
 var SM_PATCH = {
     'Ally Switch': { priority: 2 },
     Aeroblast: { zp: 180 },
@@ -2821,7 +2821,7 @@ var SM_PATCH = {
         zp: 160
     }
 };
-var SM = util_1.extend(true, {}, XY, SM_PATCH);
+var SM = (0, util_1.extend)(true, {}, XY, SM_PATCH);
 var SS_PATCH = {
     'Apple Acid': {
         bp: 80,
@@ -4117,7 +4117,7 @@ var SS_PATCH = {
     'Zen Headbutt': { maxPower: 130 },
     'Zing Zap': { maxPower: 130 }
 };
-var SS = util_1.extend(true, {}, SM, SS_PATCH);
+var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH);
 var LGPE_MOVES = [
     'Baddy Bad',
     'Bouncy Bubble',
@@ -4184,7 +4184,7 @@ exports.Moves = Moves;
 var Move = (function () {
     function Move(name, data, gen) {
         this.kind = 'Move';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
         this.flags = {};
         if (data.makesContact)
@@ -4199,7 +4199,7 @@ var Move = (function () {
             this.flags.sound = 1;
         if (data.isPulse)
             this.flags.pulse = 1;
-        util_1.assignWithout(this, data, Move.FLAGS);
+        (0, util_1.assignWithout)(this, data, Move.FLAGS);
         this.basePower = data.bp;
         if (data.zp)
             this.zMove = { basePower: data.zp };

@@ -9,11 +9,11 @@ var Move = (function () {
         var _a, _b;
         name = options.name || name;
         this.originalName = name;
-        var data = util_1.extend(true, { name: name }, gen.moves.get(util_1.toID(name)), options.overrides);
+        var data = (0, util_1.extend)(true, { name: name }, gen.moves.get((0, util_1.toID)(name)), options.overrides);
         this.hits = 1;
         if (options.useMax && data.maxMove) {
             var maxMoveName_1 = getMaxMoveName(data.type, options.species, !!(data.category === 'Status'));
-            var maxMove_1 = gen.moves.get(util_1.toID(maxMoveName_1));
+            var maxMove_1 = gen.moves.get((0, util_1.toID)(maxMoveName_1));
             var maxPower = function () {
                 if (['G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe'].includes(maxMoveName_1)) {
                     return 160;
@@ -23,7 +23,7 @@ var Move = (function () {
                 }
                 return maxMove_1.basePower;
             };
-            data = util_1.extend(true, {}, maxMove_1, {
+            data = (0, util_1.extend)(true, {}, maxMove_1, {
                 name: maxMoveName_1,
                 basePower: maxPower(),
                 category: data.category
@@ -31,8 +31,8 @@ var Move = (function () {
         }
         if (options.useZ && ((_a = data.zMove) === null || _a === void 0 ? void 0 : _a.basePower)) {
             var zMoveName = getZMoveName(data.name, data.type, options.item);
-            var zMove = gen.moves.get(util_1.toID(zMoveName));
-            data = util_1.extend(true, {}, zMove, {
+            var zMove = gen.moves.get((0, util_1.toID)(zMoveName));
+            data = (0, util_1.extend)(true, {}, zMove, {
                 name: zMoveName,
                 basePower: zMove.basePower === 1 ? data.zMove.basePower : zMove.basePower,
                 category: data.category
@@ -228,7 +228,8 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus) {
     if (moveType === 'Electric') {
         if (pokemonSpecies === 'Pikachu-Gmax')
             return 'G-Max Volt Crash';
-        if ((pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.startsWith('Toxtricity')) && (pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.endsWith('Gmax')))
+        if ((pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.startsWith('Toxtricity')) &&
+            (pokemonSpecies === null || pokemonSpecies === void 0 ? void 0 : pokemonSpecies.endsWith('Gmax')))
             return 'G-Max Stun Shock';
     }
     if (moveType === 'Grass') {

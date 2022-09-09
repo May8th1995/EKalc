@@ -53,7 +53,7 @@ exports.Stats = new ((function () {
             case 'spc':
                 return 'Spc';
             default:
-                throw new Error("unknown stat " + stat);
+                throw new Error("unknown stat ".concat(stat));
         }
     };
     class_1.prototype.shortForm = function (stat) {
@@ -96,7 +96,7 @@ exports.Stats = new ((function () {
     };
     class_1.prototype.calcStat = function (gen, stat, base, iv, ev, level, nature) {
         if (gen.num < 1 || gen.num > 8)
-            throw new Error("Invalid generation " + gen.num);
+            throw new Error("Invalid generation ".concat(gen.num));
         if (gen.num < 3)
             return this.calcStatRBY(stat, base, iv, level);
         return this.calcStatADV(gen.natures, stat, base, iv, ev, level, nature);
@@ -110,7 +110,7 @@ exports.Stats = new ((function () {
         else {
             var mods = [undefined, undefined];
             if (nature) {
-                var nat = natures.get(util_1.toID(nature));
+                var nat = natures.get((0, util_1.toID)(nature));
                 mods = [nat === null || nat === void 0 ? void 0 : nat.plus, nat === null || nat === void 0 ? void 0 : nat.minus];
             }
             var n = mods[0] === stat && mods[1] === stat
