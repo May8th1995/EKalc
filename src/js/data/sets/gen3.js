@@ -947,7 +947,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Triathlete Jasmine": {"ability":"Pure Power","level":24,"moves":["Fake Out", "Substitute", "Focus Punch" ],"nature":"Gentle"}
  ,"Battle Girl Aisha": {"ability":"Pure Power","level":22 ,"item":"Black Belt","moves":[ "Fake Out", "Rock Smash", "Secret Power", "Rock Tomb" ]}
  ,"Winstrate Vicky": {"ability":"Pure Power","level":27 ,"item":"Lum Berry","moves":[ "Fake Out", "Brick Break", "Shadow Ball", "Rock Slide" ],"nature":"Careful"}}
- ,"Meganium":{"Magma Grunt #3 (Jagged Pass)": {"ability":"Thick Fat","level":35 ,"item":"Brightpowder","moves":[ "Synthesis", "Giga Drain", "Earthquake", "Ancientpower" ],"nature":"Modest"}
+ ,"Meganium":{"Magma Grunt #3 (Jagged Pass)": {"ability":"Thick Fat","level":35 ,"item":"Brightpowder","moves":[ "Synthesis", "Giga Drain", "Earthquake", "Ancientpower" ],"nature":"Modest"} 
  ,"Breeder George": {"ability":"Thick Fat","level":41 ,"item":"Leftovers","moves":[ "Synthesis", "Giga Drain", "Leech Seed", "Ancientpower"]}
  ,"Aroma Lady Rose": {"ability":"Thick Fat","level":43 ,"item":"Leftovers","moves":[ "Swords Dance", "Earthquake", "Ancientpower", "Synthesis"]}
  ,"Trainer Brendan 3 (w/ Torchic)": {"ability":"Thick Fat","level":50 ,"item":"Lum Berry","moves":[ "Giga Drain", "Earthquake", "Ancientpower", "Synthesis" ],"nature":"Lax"}
