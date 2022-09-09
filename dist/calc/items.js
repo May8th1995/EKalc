@@ -404,7 +404,7 @@ function getFlingPower(item) {
 exports.getFlingPower = getFlingPower;
 function getNaturalGift(gen, item) {
     var _a;
-    var gift = (_a = gen.items.get(util_1.toID(item))) === null || _a === void 0 ? void 0 : _a.naturalGift;
+    var gift = (_a = gen.items.get((0, util_1.toID)(item))) === null || _a === void 0 ? void 0 : _a.naturalGift;
     return gift ? { t: gift.type, p: gift.basePower } : { t: 'Normal', p: 1 };
 }
 exports.getNaturalGift = getNaturalGift;

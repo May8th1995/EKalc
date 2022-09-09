@@ -30,7 +30,7 @@ exports.__esModule = true;
 
 var index_1 = require("../index");
 var field_1 = require("../field");
-var calc = function (gen) { return function (attacker, defender, move, field) { return index_1.calculate(gen, attacker, defender, move, field); }; };
+var calc = function (gen) { return function (attacker, defender, move, field) { return (0, index_1.calculate)(gen, attacker, defender, move, field); }; };
 var move = function (gen) { return function (name, options) {
     if (options === void 0) { options = {}; }
     return new index_1.Move(gen, name, options);
@@ -94,7 +94,7 @@ function tests() {
         type = args[4];
     }
     inGens(from, to, function (gen) {
-        var n = name + " (gen " + gen.gen + ")";
+        var n = "".concat(name, " (gen ").concat(gen.gen, ")");
         if (type === 'skip') {
             test.skip(n, function () { return fn(gen); });
         }
@@ -139,7 +139,7 @@ expect.extend({
             finally { if (e_1) throw e_1.error; }
         }
         if (!(expected.range || expected.desc || expected.result)) {
-            throw new Error("toMatch called with empty diff: " + diff);
+            throw new Error("toMatch called with empty diff: ".concat(diff));
         }
         if (expected.range) {
             if (this.isNot) {
@@ -160,7 +160,7 @@ expect.extend({
         }
         if (expected.result) {
             var post = received.fullDesc(notation).split(': ')[1];
-            var r = "(" + post.split('(')[1];
+            var r = "(".concat(post.split('(')[1]);
             if (this.isNot) {
                 expect(r).not.toEqual(expected.result);
             }

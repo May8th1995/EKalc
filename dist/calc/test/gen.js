@@ -53,9 +53,14 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __spread = (this && this.__spread) || function () {
-    for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
-    return ar;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
 
@@ -406,7 +411,7 @@ var Specie = (function () {
             this.otherFormes = ['Eternatus-Eternamax'];
         }
         else if (formes === null || formes === void 0 ? void 0 : formes.length) {
-            this.otherFormes = __spread(formes).sort();
+            this.otherFormes = __spreadArray([], __read(formes), false).sort();
         }
         else if (species.baseSpecies !== this.name) {
             this.baseSpecies = species.baseSpecies;
@@ -414,9 +419,9 @@ var Specie = (function () {
         if (dex.gen === 8 && species.canGigantamax &&
             !(species.id.startsWith('toxtricity') || species.id.startsWith('urshifu'))) {
             var formes_1 = this.otherFormes || [];
-            var gmax = dex.getSpecies(species.name + "-Gmax");
+            var gmax = dex.getSpecies("".concat(species.name, "-Gmax"));
             if (exists(gmax, dex.gen))
-                this.otherFormes = __spread(formes_1, [gmax.name]).sort();
+                this.otherFormes = __spreadArray(__spreadArray([], __read(formes_1), false), [gmax.name], false).sort();
         }
         if (dex.gen > 2)
             this.abilities = { 0: species.abilities[0] };

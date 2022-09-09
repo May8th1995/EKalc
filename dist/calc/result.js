@@ -15,9 +15,14 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __spread = (this && this.__spread) || function () {
-    for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
-    return ar;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
 
@@ -45,23 +50,23 @@ var Result = (function () {
     Result.prototype.fullDesc = function (notation, err) {
         if (notation === void 0) { notation = '%'; }
         if (err === void 0) { err = true; }
-        return desc_1.display(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, this.rawDesc, notation, err);
+        return (0, desc_1.display)(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, this.rawDesc, notation, err);
     };
     Result.prototype.moveDesc = function (notation) {
         if (notation === void 0) { notation = '%'; }
-        return desc_1.displayMove(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
+        return (0, desc_1.displayMove)(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
     };
     Result.prototype.recovery = function (notation) {
         if (notation === void 0) { notation = '%'; }
-        return desc_1.getRecovery(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
+        return (0, desc_1.getRecovery)(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
     };
     Result.prototype.recoil = function (notation) {
         if (notation === void 0) { notation = '%'; }
-        return desc_1.getRecoil(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
+        return (0, desc_1.getRecoil)(this.gen, this.attacker, this.defender, this.move, this.damage, notation);
     };
     Result.prototype.kochance = function (err) {
         if (err === void 0) { err = true; }
-        return desc_1.getKOChance(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, err);
+        return (0, desc_1.getKOChance)(this.gen, this.attacker, this.defender, this.move, this.field, this.damage, err);
     };
     return Result;
 }());
@@ -72,7 +77,7 @@ function damageRange(damage) {
     if (damage.length > 2) {
         var d_1 = damage;
         if (d_1[0] > d_1[d_1.length - 1])
-            return [Math.min.apply(Math, __spread(d_1)), Math.max.apply(Math, __spread(d_1))];
+            return [Math.min.apply(Math, __spreadArray([], __read(d_1), false)), Math.max.apply(Math, __spreadArray([], __read(d_1), false))];
         return [d_1[0], d_1[d_1.length - 1]];
     }
     if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {

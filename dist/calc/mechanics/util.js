@@ -26,9 +26,14 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __spread = (this && this.__spread) || function () {
-    for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
-    return ar;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
 
@@ -121,7 +126,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     if (pokemon.hasItem('Choice Scarf')) {
         mods *= 1.5;
     }
-    else if (pokemon.hasItem.apply(pokemon, __spread(['Iron Ball'], EV_ITEMS))) {
+    else if (pokemon.hasItem.apply(pokemon, __spreadArray(['Iron Ball'], __read(EV_ITEMS), false))) {
         mods *= 0.5;
     }
     else if (pokemon.hasItem('Quick Powder') && pokemon.named('Ditto')) {
@@ -166,7 +171,7 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity) {
             gen.types.get('flying').effectiveness[type]);
     }
     else {
-        return gen.types.get(util_1.toID(move.type)).effectiveness[type];
+        return gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
     }
 }
 exports.getMoveEffectiveness = getMoveEffectiveness;
@@ -416,7 +421,7 @@ function countBoosts(gen, boosts) {
 }
 exports.countBoosts = countBoosts;
 function getEVDescriptionText(gen, pokemon, stat, natureName) {
-    var nature = gen.natures.get(util_1.toID(natureName));
+    var nature = gen.natures.get((0, util_1.toID)(natureName));
     return (pokemon.evs[stat] +
         (nature.plus === nature.minus ? ''
             : nature.plus === stat ? '+'

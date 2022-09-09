@@ -42,9 +42,14 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __spread = (this && this.__spread) || function () {
-    for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
-    return ar;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 var __values = (this && this.__values) || function(o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
@@ -398,7 +403,7 @@ exports.MEGA_STONES = {
     Tyranitarite: 'Tyranitar',
     Venusaurite: 'Venusaur'
 };
-var XY = BW.concat(__spread(Object.keys(exports.MEGA_STONES), [
+var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES)), false), [
     'Assault Vest',
     'Blue Orb',
     'Fairy Gem',
@@ -415,7 +420,7 @@ var XY = BW.concat(__spread(Object.keys(exports.MEGA_STONES), [
     'Snowball',
     'Weakness Policy',
     'Whipped Dream',
-]).sort());
+], false).sort());
 var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
     'Adrenaline Orb',
     'Aloraichium Z',
@@ -509,10 +514,10 @@ var SS = SM.concat([
     'Throat Spray',
 ]);
 for (var i = 0; i < 100; i++) {
-    SS.push("TR" + (i < 10 ? "0" + i : i));
+    SS.push("TR".concat(i < 10 ? "0".concat(i) : i));
 }
 SS.push('Utility Umbrella');
-SS.push.apply(SS, __spread(GSC_ONLY, ['Old Amber']));
+SS.push.apply(SS, __spreadArray(__spreadArray([], __read(GSC_ONLY), false), ['Old Amber'], false));
 var BERRIES = {
     'Aguav Berry': { t: 'Dragon', p: 80 },
     'Apicot Berry': { t: 'Ground', p: 100 },
@@ -630,7 +635,7 @@ exports.Items = Items;
 var Item = (function () {
     function Item(name, gen) {
         this.kind = 'Item';
-        this.id = util_1.toID(name);
+        this.id = (0, util_1.toID)(name);
         this.name = name;
         this.megaEvolves = exports.MEGA_STONES[name];
         var berry = BERRIES[name];
