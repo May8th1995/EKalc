@@ -1147,7 +1147,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #7 (Mt. Pyre)": {"ability":"Swift Swim","level":54 ,"item":"Leftovers","moves":[ "Hypnosis", "Focus Punch", "Ice Beam", "Substitute" ],"nature":"Naughty"}
  ,"Aqua Grunt #5 (Aqua Hideout)": {"ability":"Swift Swim","level":65 ,"item":"Leftovers","moves":[ "Rain Dance", "Earthquake", "Superpower", "Ice Beam" ],"nature":"Timid"}
  ,"Triathlete Pablo": {"ability":"Swift Swim","level":66 ,"item":"Quick Claw","moves":[ "Mud Shot", "Hypnosis", "Brick Break", "Hydro Pump" ],"nature":"Impish"}
- ,"Aqua Grunt #3 (Seafloor Cavern)": {"ability":"Swift Swim","level":67 ,"item":"Lum Berry","moves":[ "Hypnosis", "Superpower", "Earthquake", "Ice Beam" ],"nature":"Naughty"}
+ ,"Aqua Grunt #3 (Seafloor Cavern)": {"ability":"Swift Swim","level":70 ,"item":"Lum Berry","moves":[ "Hypnosis", "Superpower", "Earthquake", "Ice Beam" ],"nature":"Naughty"}
  ,"Battle Girl Crissy": {"ability":"Swift Swim","level":74 ,"item":"Lum Berry","moves":[ "Belly Drum", "Earthquake", "Rock Slide", "Brick Break" ],"nature":"Calm"}}
  ,"Ponyta":{"Beauty Johanna": {"ability":"Flame Body","level":16 ,"item":"Charcoal","moves":[ "Flame Wheel", "Wild Charge", "Quick Attack", "Double Kick" ],"nature":"Brave"}
  ,"Triathlete Melina": {"ability":"Flame Body","level":21 ,"item":"Lum Berry","moves":[ "Agility", "Baton Pass", "Flamethrower", "Iron Tail" ],"nature":"Relaxed"}}
