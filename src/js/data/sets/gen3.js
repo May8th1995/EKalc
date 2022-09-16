@@ -1288,7 +1288,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Tuber Ricky": {"ability":"Sand Veil","level":16,"moves":[ "Magnitude", "Rock Slide", "Slash", "Mud-Slap" ],"nature":"Brave"}}
  ,"Sandslash":{"Magma Grunt #5 (Route 114)": {"ability":"Sand Veil","level":35 ,"item":"Scope Lens","moves":[ "Earthquake", "Rock Slide", "X-scissors", "Crush Claw" ],"nature":"Sassy"}
  ,"Picnicker Becky": {"ability":"Sand Veil","level":40 ,"item":"Leftovers","moves":[ "Earthquake", "Aerial Ace", "Ancientpower", "Substitute" ],"nature":"Brave"}
- ,"Picnicker Celia": {"ability":"Sand Veil","level":40,"moves":[ "Sand-attack", "Dig", "Slash", "Body Slam"]}
+ ,"Picnicker Celia": {"ability":"Sand Veil","level":40,"moves":[ "Sand Attack", "Dig", "Slash", "Body Slam"]}
  ,"Youngster Deandre": {"ability":"Sand Veil","level":42 ,"item":"Lum Berry","moves":[ "Swords Dance", "Earthquake", "X-scissors", "Rock Slide"]}
  ,"Magma Grunt #6 (Magma Hideout)": {"ability":"Sand Veil","level":60 ,"item":"Brightpowder","moves":[ "Earthquake", "Ancientpower", "X-scissors", "Crush Claw" ],"nature":"Mild"}}
  ,"Sceptile":{"Triathlete Mary": {"ability":"Overgrow","level":40 ,"item":"Scope Lens","moves":[ "Leaf Blade", "Dragon Claw", "Brick Break", "Rock Slide" ],"nature":"Bold"}
@@ -1722,5 +1722,5 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Cooltrainer Jody": {"ability":"Guts","level":43 ,"item":"Silk Scarf","moves":[ "Crush Claw", "Quick Attack", "Brick Break", "Shadow Ball" ],"nature":"Rash"}
  ,"Cooltrainer Owen": {"ability":"Guts","level":87 ,"item":"Chesto Berry","moves":[ "Crush Claw", "Superpower", "Shadow Ball", "Thunder Wave" ],"nature":"Bold"}}
  ,"Zapdos":{"Leader Winona": {"ability":"Pressure","level":55 ,"item":"Lum Berry","moves":[ "Sky Attack", "Thunderbolt", "Hidden Power Ice", "Return" ],"nature":"Careful"}}
- ,"Zigzagoon":{"Youngster Calvin": {"ability":"Guts","level":6,"moves":[ "Swift", "Sand-attack" ],"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
+ ,"Zigzagoon":{"Youngster Calvin": {"ability":"Guts","level":6,"moves":[ "Swift", "Sand Attack" ],"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
  ,"Zubat":{"School Kid Josh": {"ability":"Inner Focus","level":11 ,"item":"Cheri Berry","moves":[ "Giga Drain", "Aerial Ace", "Hypnosis", "Leech Life" ],"nature":"Mild"}}};
