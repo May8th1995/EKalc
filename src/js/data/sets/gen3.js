@@ -441,7 +441,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Ruin Maniac Eli": {"ability":"Vital Spirit","level":37 ,"item":"Lum Berry","moves":[ "Overheat", "Hyper Voice", "Earthquake", "Ice Beam" ],"nature":"Lax"}
  ,"Pokéfan Parker": {"ability":"Vital Spirit","level":43 ,"item":"Leftovers","moves":[ "Teeter Dance", "Body Slam", "Earthquake", "Shadow Ball" ],"nature":"Modest"}
  ,"Interviewers Gabby & Ty": {"ability":"Vital Spirit","level":45 ,"item":"Leftovers","moves":[ "Earthquake", "Hyper Voice", "Brick Break", "Teeter Dance" ],"nature":"Bold"}
- ,"Guitarist Dalton": {"ability":"Vital Spirit","level":43 ,"item":"Nevermeltice","moves":[ "Hyper Voice", "Earthquake", "Ice Beam", "Flamethrower" ],"nature":"Bold"}
+ ,"Guitarist Dalton": {"ability":"Vital Spirit","level":43 ,"item":"Never-Melt Ice","moves":[ "Hyper Voice", "Earthquake", "Ice Beam", "Flamethrower" ],"nature":"Bold"}
  ,"Interviewers Gabby & Ty": {"ability":"Vital Spirit","level":53 ,"item":"Silk Scarf","moves":[ "Hyper Voice", "Teeter Dance", "Earthquake", "Shadow Ball" ],"nature":"Gentle"}
  ,"Magma Grunt #7 (Magma Hideout)": {"ability":"Vital Spirit","level":59 ,"item":"Quick Claw","moves":[ "Hyper Voice", "Overheat", "Solar Beam", "Ice Beam" ],"nature":"Brave"}
  ,"Magma Grunt #12 (Magma Hideout)": {"ability":"Vital Spirit","level":62 ,"item":"Lum Berry","moves":[ "Overheat", "Hyper Voice", "Solar Beam", "Extrasensory" ],"nature":"Brave"}
@@ -1171,7 +1171,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Poliwhirl":{"Sailor Brenden": {"ability":"Swift Swim","level":16 ,"item":"Soft Sand","moves":[ "Hypnosis", "Water Pulse", "Ice Punch", "Mud Shot" ],"nature":"Sassy","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}
  ,"Sailor Dwayne": {"ability":"Swift Swim","level":16,"moves":["Mud Shot", "Water Pulse", "Ice Punch" ],"nature":"Modest"}
  ,"Triathlete Benjamin": {"ability":"Swift Swim","level":24 ,"item":"Sitrus Berry","moves":[ "Belly Drum", "Hypnosis", "Brick Break", "Body Slam" ]}
- ,"Camper Tyron": {"ability":"Swift Swim","level":27 ,"item":"Nevermeltice","moves":[ "Hypnosis", "Blizzard", "Protect", "Hydro Pump" ],"nature":"Rash"}}
+ ,"Camper Tyron": {"ability":"Swift Swim","level":27 ,"item":"Never-Melt Ice","moves":[ "Hypnosis", "Blizzard", "Protect", "Hydro Pump" ],"nature":"Rash"}}
  ,"Poliwrath":{"Leader Brawly": {"ability":"Swift Swim","level":17 ,"item":"Lum Berry","moves":[ "Hypnosis", "Surf", "Ice Punch", "Brick Break" ]}
  ,"Black Belt Nob": {"ability":"Swift Swim","level":35 ,"item":"Black Belt","moves":[ "Brick Break", "Surf", "Rock Slide", "Body Slam" ],"nature":"Impish"}
  ,"Aqua Grunt #4 (Weather Institute)": {"ability":"Swift Swim","level":47 ,"item":"Leftovers","moves":[ "Hypnosis", "Ice Beam", "Brick Break", "Earthquake" ],"nature":"Gentle"}
@@ -1322,13 +1322,13 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Seaking":{"Parasol Lady Madeline": {"ability":"Swift Swim","level":34 ,"item":"Cheri Berry","moves":[ "Rain Dance", "Waterfall", "Ice Beam", "Secret Power" ],"nature":"Timid"}
  ,"Sailor Cory": {"ability":"Swift Swim","level":45 ,"item":"Quick Claw","moves":[ "Double-Edge", "Drill Run", "Waterfall", "Megahorn"]}
  ,"Fisherman Barny": {"ability":"Swift Swim","level":42 ,"item":"Lum Berry","moves":[ "Megahorn", "Surf", "Double-Edge", "Drill Run" ],"nature":"Lax"}
- ,"Parasol Lady Angelica": {"ability":"Swift Swim","level":51 ,"item":"Nevermeltice","moves":[ "Surf", "Ice Beam", "Return", "Attract" ],"nature":"Bold"}
+ ,"Parasol Lady Angelica": {"ability":"Swift Swim","level":51 ,"item":"Never-Melt Ice","moves":[ "Surf", "Ice Beam", "Return", "Attract" ],"nature":"Bold"}
  ,"Swimmerf Carlee": {"ability":"Swift Swim","level":35,"moves":[ "Ice Beam", "Double-Edge", "Drill Run", "Waterfall" ],"nature":"Jolly"}
  ,"Beauty Connie": {"ability":"Swift Swim","level":74 ,"item":"Lum Berry","moves":[ "Megahorn", "Drill Run", "Return", "Hydro Pump" ],"nature":"Hasty"}}
  ,"Sealeo":{"Triathlete Julio": {"ability":"Thick Fat","level":37 ,"item":"Lum Berry","moves":[ "Ice Beam", "Hydro Pump", "Protect", "Body Slam" ],"nature":"Timid"}}
  ,"Seedot":{"Tuber Ricky": {"ability":"Chlorophyll","level":16,"moves":[ "Giga Drain", "Nature Power", "Quick Attack", "Synthesis" ],"nature":"Mild"}}
  ,"Seel":{"Sailor Huey": {"ability":"Thick Fat","level":16,"moves":["Aurora Beam", "Water Pulse", "Ice Shard" ],"nature":"Careful"}
- ,"Triathlete Maria": {"ability":"Thick Fat","level":24 ,"item":"Nevermeltice","moves":[ "Ice Shard", "Waterfall", "Body Slam", "Aurora Beam" ],"nature":"Quiet"}}
+ ,"Triathlete Maria": {"ability":"Thick Fat","level":24 ,"item":"Never-Melt Ice","moves":[ "Ice Shard", "Waterfall", "Body Slam", "Aurora Beam" ],"nature":"Quiet"}}
  ,"Sentret":{"Youngster Calvin": {"ability":"Early Bird","level":6,"moves":[ "Assist", "Quick Attack" ],"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
  ,"Seviper":{"Triathlete Jace": {"ability":"Shed Skin","level":38 ,"item":"Lum Berry","moves":[ "Solar Beam", "Flamethrower", "Poison Tail", "Earthquake" ],"nature":"Rash"}
  ,"Aqua Grunt #1 (Weather Institute)": {"ability":"Shed Skin","level":45 ,"item":"King's Rock","moves":[ "Glare", "Poison Tail", "Earthquake", "Giga Drain" ],"nature":"Quiet"}
@@ -1680,7 +1680,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Parasol Lady Daphne": {"ability":"Rain Dish","level":73 ,"item":"Lum Berry","moves":[ "Ice Beam", "Surf", "Earthquake", "Ice Shard" ],"nature":"Relaxed"}
  ,"Sailor Hudson": {"ability":"Rain Dish","level":67,"moves":[ "Water Pulse", "Double-Edge", "Blizzard", "Ice Beam" ],"nature":"Sassy"}
  ,"Cooltrainer Ruben": {"ability":"Rain Dish","level":72 ,"item":"Leftovers","moves":[ "Ice Shard", "Surf", "Ice Beam", "Earthquake" ],"nature":"Adamant"}
- ,"Cooltrainer Katelynn": {"ability":"Rain Dish","level":88 ,"item":"Nevermeltice","moves":[ "Ice Shard", "Ice Beam", "Earthquake", "Surf" ],"nature":"Naive"}}
+ ,"Cooltrainer Katelynn": {"ability":"Rain Dish","level":88 ,"item":"Never-Melt Ice","moves":[ "Ice Shard", "Ice Beam", "Earthquake", "Surf" ],"nature":"Naive"}}
  ,"Wartortle":{"Trainer Brendan 2 (w/ Torchic)": {"ability":"Torrent","level":25,"moves":[ "Fake Out", "Water Pulse", "Ice Punch", "Body Slam" ],"nature":"Brave"}
  ,"Trainer May 2 (w/ Torchic)": {"ability":"Torrent","level":25,"moves":[ "Fake Out", "Water Pulse", "Ice Punch", "Body Slam" ]}
  ,"Picnicker Bianca": {"ability":"Torrent","level":24,"moves":["Water Pulse", "Ice Punch", "Secret Power" ],"nature":"Timid"}}
