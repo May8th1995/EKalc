@@ -1051,7 +1051,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #4 (Aqua Hideout)": {"ability":"Poison Point","level":63 ,"item":"Quick Claw","moves":[ "Poison Fang", "Shadow Ball", "Earthquake", "Ice Beam"]}}
  ,"Nidoran-F":{"Lass Janice": {"ability":"Poison Point","level":10,"moves":["Toxic", "Bite", "Secret Power" ],"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18, "df":18, "sd":18}}}
  ,"Nidoran-M":{"School Kid Jerry": {"ability":"Poison Point","level":10,"moves":[ "Horn Attack", "Toxic", "Dig", "Rock Tomb" ],"nature":"Calm","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}}
- ,"Nidorina":{"Trainer May 1.5 (w/ Mudkip)": {"ability":"Poison Point","level":16 ,"item":"Silk Scarf","moves":[ "Drill Run", "Protect", "Secret Power", "Toxic" ],"nature":"Mild"}
+ ,"Nidorina":{"Trainer May 1.5 (w/ Mudkip)": {"ability":"Poison Point","level":16 ,"item":"Silk Scarf","moves":[ "Drill Run", "Protect", "Secret Power", "Toxic" ],"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}
  ,"Trainer May 1.5 (w/ Torchic)": {"ability":"Poison Point","level":16 ,"item":"Silk Scarf","moves":[ "Toxic", "Secret Power", "Drill Run", "Protect" ],"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}
  ,"Trainer May 1.5 (w/ Treecko)": {"ability":"Poison Point","level":16 ,"item":"Silk Scarf","moves":[ "Toxic", "Protect", "Drill Run", "Secret Power" ],"nature":"Mild"}
  ,"Pokéfan Isabel": {"ability":"Poison Point","level":16,"moves":[ "Attract", "Sludge Bomb", "Brick Break", "Water Pulse" ]}
