@@ -29,7 +29,7 @@ export function getItemBoostType(item: string | undefined) {
   case 'Never-Melt Ice':
     return 'Ice';
   case 'Insect Plate':
-  case 'Silver Powder':
+  case 'Silverpowder':
     return 'Bug';
   case 'Iron Plate':
   case 'Metal Coat':
@@ -326,7 +326,7 @@ const FLING_10 = new Set([
   'Sea Incense',
   'Shed Shell',
   'Silk Scarf',
-  'Silver Powder',
+  'Silverpowder',
   'Smooth Rock',
   'Soft Sand',
   'Soothe Bell',
@@ -337,7 +337,7 @@ const FLING_10 = new Set([
   'Wide Lens',
   'Wise Glasses',
   'Zoom Lens',
-  'Silver Powder',
+  'Silverpowder',
   'Power Herb',
   'TR00',
   'TR07',
