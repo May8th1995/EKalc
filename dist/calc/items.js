@@ -26,7 +26,7 @@ function getItemBoostType(item) {
         case 'Charcoal':
             return 'Fire';
         case 'Icicle Plate':
-        case 'Never-Melt Ice':
+        case 'Nevermeltice':
             return 'Ice';
         case 'Insect Plate':
         case 'Silverpowder':
@@ -253,7 +253,7 @@ var FLING_30 = new Set([
     'Metal Coat',
     'Miracle Seed',
     'Mystic Water',
-    'Never-Melt Ice',
+    'Nevermeltice',
     'Razor Fang',
     'Scope Lens',
     'Soul Dew',

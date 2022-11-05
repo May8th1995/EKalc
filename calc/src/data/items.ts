@@ -45,7 +45,7 @@ const GSC = [
   'Moon Stone',
   'Mystery Berry',
   'Mystic Water',
-  'Never-Melt Ice',
+  'Nevermeltice',
   'Pink Bow',
   'Poison Barb',
   'Poke Ball',
