@@ -806,7 +806,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Guitarist Joseph": {"ability":"Swift Swim","level":18,"moves":["Rain Dance", "Teeter Dance", "Water Pulse" ],"ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}
  ,"Aroma Lady Daisy": {"ability":"Swift Swim","level":16,"moves":[ "Water Pulse", "Ice Punch", "Fire Punch", "Thunder Punch" ],"nature":"Sassy","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}
  ,"Guitarist Marcos": {"ability":"Swift Swim","level":16,"moves":[ "Teeter Dance", "Mega Drain", "Fake Out", "Water Pulse" ],"nature":"Adamant","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}}
- ,"Lotad":{"Tuber Austina": {"ability":"Swift Swim","level":15,"moves":["Fake Out", "Mega Drain", "Dive" ],"nature":"Lax"},"ivs":{"hp":12,"at":12,"sa":12,"sp":12, "df":12, "sd":12}}
+ ,"Lotad":{"Tuber Austina": {"ability":"Swift Swim","level":15,"moves":["Fake Out", "Mega Drain", "Dive" ],"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12, "df":12, "sd":12}}}
  ,"Loudred":{"Guitarist Kirk": {"ability":"Vital Spirit","level":26 ,"item":"Lum Berry","moves":[ "Hyper Voice", "Ice Beam", "Water Pulse", "Flamethrower"]}
  ,"Interviewers Gabby & Ty": {"ability":"Vital Spirit","level":27 ,"item":"Choice Band","moves":[ "Hyper Voice"]}}
  ,"Ludicolo":{"Guitarist Kirk": {"ability":"Swift Swim","level":25 ,"item":"Magnet","moves":[ "Water Pulse", "Thunder Punch", "Razor Leaf", "Teeter Dance" ],"nature":"Relaxed"}
