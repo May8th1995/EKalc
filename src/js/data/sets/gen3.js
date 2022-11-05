@@ -392,7 +392,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
   ,"Gentleman Walter": {"ability":"Run Away","level":55 ,"item":"Bright Powder","moves":[ "Substitute", "Body Slam", "Double Team", "Baton Pass" ],"nature":"Jolly"}}
  ,"Ekans":{"Youngster Joey": {"ability":"Intimidate","level":10,"moves":[ "Glare", "Acid", "Bite", "Mega Drain" ],"nature":"Brave","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}}
   ,"Electabuzz":{"Leader Wattson": {"ability":"Static","level":28 ,"item":"Lum Berry","moves":[ "Psychic", "Thunderbolt", "Fire Punch", "Ice Punch" ],"nature":"Quiet"}
- ,"Expert Keegan": {"ability":"Static","level":37 ,"item":" Lum Berry","moves":[ "Fire Punch", "Ice Punch", "Thunderbolt", "Cross Chop" ],"nature":"Lonely"}
+ ,"Expert Keegan": {"ability":"Static","level":37 ,"item":"Lum Berry","moves":[ "Fire Punch", "Ice Punch", "Thunderbolt", "Cross Chop" ],"nature":"Lonely"}
  ,"Guitarist Beth": {"ability":"Static","level":49 ,"item":"Lum Berry","moves":[ "Thunder", "Ice Punch", "Cross Chop", "Psychic" ],"nature":"Brave"}
  ,"Cooltrainer Marcel": {"ability":"Static","level":51 ,"item":"Lum Berry","moves":[ "Thunderbolt", "Ice Punch", "Cross Chop", "Quick Attack" ],"nature":"Lax"}
  ,"Aqua Grunt #5 (Mt. Pyre)": {"ability":"Static","level":51 ,"item":"King's Rock","moves":[ "Thunder", "Cross Chop", "Quick Attack", "Ice Punch" ],"nature":"Modest"}
@@ -1095,7 +1095,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Nuzleaf":{"Youngster Timmy": {"ability":"Chlorophyll","level":19,"moves":["Pursuit", "Fake Out", "Giga Drain" ],"nature":"Bold","ivs":{"hp":19,"at":19,"sa":19,"sp":19, "df":19, "sd":19}}}
  ,"Octillery":{"Fisherman Ben": {"ability":"Suction Cups","level":26 ,"item":"Soft Sand","moves":[ "Thunder Wave", "Water Pulse", "Signal Beam", "Mud Shot" ],"nature":"Timid"}
  ,"Magma Grunt #2 (Mt. Chimney)": {"ability":"Suction Cups","level":36 ,"item":"Quick Claw","moves":[ "Octazooka", "Fire Blast", "Ice Beam", "Body Slam" ],"nature":"Naughty"}
- ,"Expert Keegan": {"ability":"Suction Cups","level":38 ,"item":" Lum Berry","moves":[ "Fire Blast", "Ice Beam", "Octazooka", "Body Slam" ],"nature":"Jolly"}
+ ,"Expert Keegan": {"ability":"Suction Cups","level":38 ,"item":"Lum Berry","moves":[ "Fire Blast", "Ice Beam", "Octazooka", "Body Slam" ],"nature":"Jolly"}
  ,"Picnicker Celia": {"ability":"Suction Cups","level":40,"moves":[ "Octazooka", "Ice Beam", "Flamethrower", "Signal Beam"]}
  ,"Aqua Grunt #2 (Weather Institute)": {"ability":"Suction Cups","level":46 ,"item":"Quick Claw","moves":[ "Water Spout", "Fire Blast", "Ice Beam", "Double-Edge" ],"nature":"Bold"}
  ,"Ninja Boy Hideo": {"ability":"Suction Cups","level":48 ,"item":"Leftovers","moves":[ "Octazooka", "Ice Beam", "Body Slam", "Gunk Shot" ],"nature":"Careful"}
@@ -1462,7 +1462,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Pokéfan Parker": {"ability":"Intimidate","level":43 ,"item":"Lum Berry","moves":[ "Confuse Ray", "Body Slam", "Earthquake", "Shadow Ball"]}
  ,"Ranger Ashley": {"ability":"Intimidate","level":50 ,"item":"Lum Berry","moves":[ "Hypnosis", "Return", "Hidden Power Flying", "Earthquake"]}}
  ,"Starmie":{"Ninja Boy Jaiden": {"ability":"Natural Cure","level":43,"moves":[ "Psychic", "Recover", "Hydro Pump", "Confuse Ray"]}
- ,"Aqua Grunt (Route 108)": {"ability":"Natural Cure","level": 45 ,"item":" Lum Berry","moves":[ "Psychic", "Recover", "Hydro Pump", "Confuse Ray" ],"nature":"Brave"}
+ ,"Aqua Grunt (Route 108)": {"ability":"Natural Cure","level": 45 ,"item":"Lum Berry","moves":[ "Psychic", "Recover", "Hydro Pump", "Confuse Ray" ],"nature":"Brave"}
  ,"Aqua Grunt #2 (Weather Institute)": {"ability":"Natural Cure","level":46 ,"item":"King's Rock","moves":[ "Thunder Wave", "Signal Beam", "Psychic", "Surf" ],"nature":"Mild"}
  ,"Aqua Grunt #8 (Mt. Pyre)": {"ability":"Natural Cure","level":54 ,"item":"Leftovers","moves":[ "Cosmic Power", "Recover", "Psychic", "Toxic" ],"nature":"Jolly"}
  ,"Aqua Grunt #5 (Aqua Hideout)": {"ability":"Natural Cure","level":62 ,"item":"King's Rock","moves":[ "Rain Dance", "Surf", "Thunder", "Psychic" ],"nature":"Lax"}
