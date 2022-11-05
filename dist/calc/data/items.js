@@ -73,7 +73,7 @@ var GSC = [
     'Berserk Gene',
     'Bitter Berry',
     'Black Belt',
-    'Black Glasses',
+    'Blackglasses',
     'Bright Powder',
     'Burnt Berry',
     'Charcoal',

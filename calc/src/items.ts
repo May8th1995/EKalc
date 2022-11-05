@@ -14,7 +14,7 @@ export function getItemBoostType(item: string | undefined) {
   case 'Dragon Fang':
     return 'Dragon';
   case 'Dread Plate':
-  case 'Black Glasses':
+  case 'Blackglasses':
     return 'Dark';
   case 'Earth Plate':
   case 'Soft Sand':
@@ -246,7 +246,7 @@ const FLING_30 = new Set([
   'Absorb Bulb',
   'Black Belt',
   'Black Sludge',
-  'Black Glasses',
+  'Blackglasses',
   'Cell Battery',
   'Charcoal',
   'Deep Sea Scale',
