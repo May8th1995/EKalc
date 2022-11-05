@@ -420,7 +420,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Gentleman Walter": {"ability":"Synchronize","level":52 ,"item":"Leftovers","moves":[ "Calm Mind", "Baton Pass", "Psychic", "Substitute"]}
  ,"Magma Grunt #13 (Magma Hideout)": {"ability":"Synchronize","level":61 ,"item":"Lum Berry","moves":[ "Psychic", "Hidden Power Fire", "Bite", "Morning Sun" ],"nature":"Naughty"}
  ,"Gentleman Nate": {"ability":"Synchronize","level":67 ,"item":"Lum Berry","moves":[ "Skill Swap", "Psychic", "Bite", "Toxic" ],"nature":"Bold"}
- ,"Cooltrainer Hope": {"ability":"Synchronize","level":81 ,"item":"Leftovers ","moves":[ "Calm Mind", "Morning Sun", "Psychic", "Baton Pass"]}}
+ ,"Cooltrainer Hope": {"ability":"Synchronize","level":81 ,"item":"Leftovers","moves":[ "Calm Mind", "Morning Sun", "Psychic", "Baton Pass"]}}
  ,"Exeggcute":{"Sailor Edmond": {"ability":"Chlorophyll","level":15,"moves":[ "Mega Drain", "Confusion", "Hypnosis", "Secret Power" ],"nature":"Timid"}
  ,"Psychic Edward": {"ability":"Chlorophyll","level":18,"moves":[ "Giga Drain", "Stun Spore", "Psychic", "Sludge Bomb" ],"nature":"Jolly","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}}
  ,"Exeggutor":{"Psychic Alix": {"ability":"Chlorophyll","level":43,"moves":[ "Ancientpower", "Sleep Powder", "Explosion", "Stun Spore" ],"nature":"Lax"}
@@ -1427,7 +1427,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #2 (Seafloor Cavern)": {"ability":"Guts","level":68 ,"item":"Leftovers","moves":[ "Thunder", "Surf", "Body Slam", "Shadow Ball" ],"nature":"Lax"}
  ,"Cooltrainer Olivia": {"ability":"Guts","level":73 ,"item":"Lum Berry","moves":[ "Thunder", "Earthquake", "Body Slam", "Shadow Ball" ],"nature":"Gentle"}
  ,"Cooltrainer Darcy": {"ability":"Guts","level":69 ,"item":"Leftovers","moves":[ "Curse", "Rest", "Snore", "Shadow Ball" ],"nature":"Hasty"}
- ,"Expert Frederick": {"ability":"Guts","level":76 ,"item":" Leftovers","moves":[ "Facade", "Earthquake", "Shadow Ball", "Slack Off" ],"nature":"Relaxed"}
+ ,"Expert Frederick": {"ability":"Guts","level":76 ,"item":"Leftovers","moves":[ "Facade", "Earthquake", "Shadow Ball", "Slack Off" ],"nature":"Relaxed"}
  ,"Trainer Red (3)": {"ability":"Guts","level":89 ,"item":"Leftovers","moves":[ "Shadow Ball", "Earthquake", "Body Slam", "Counter" ],"nature":"Naughty"}
  ,"Expert Julie": {"ability":"Guts","level":84 ,"item":"Leftovers","moves":[ "Self-Destruct", "Body Slam", "Earthquake", "Shadow Ball"], "nature":"Hasty"}}
  ,"Snorunt":{"Aqua Grunt (Rusturf Tunnel)": {"ability":"Inner Focus","level":13 ,"item":"King's Rock","moves":[ "Bite", "Body Slam", "Ice Shard", "Attract" ]}}
