@@ -9,7 +9,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Old Couple John & Jay": {"ability":"Rock Head","level":75 ,"item":"Lum Berry","moves":[ "Earth Power", "Air Slash", "Ancientpower", "Iron Tail" ],"nature":"Quiet"}
  ,"Expert Mitchell": {"ability":"Rock Head","level":86 ,"item":"Lum Berry","moves":[ "Earthquake", "Air Slash", "Double-Edge", "Ancientpower"]}
  ,"Champion Steven": {"ability":"Rock Head","level":100 ,"item":"Lum Berry","moves":[ "Sky Attack", "Earthquake", "Flamethrower", "Ancientpower"]}}
-  ,"Aggron":{"Magma Admin Tabitha ": {"ability":"Rock Head","level":38 ,"item":"Quick Claw","moves":[ "Head Smash", "Superpower", "Earthquake", "Flash Cannon" ],"nature":"Impish"}
+  ,"Aggron":{"Magma Admin Tabitha": {"ability":"Rock Head","level":38 ,"item":"Quick Claw","moves":[ "Head Smash", "Superpower", "Earthquake", "Flash Cannon" ],"nature":"Impish"}
  ,"Ruin Maniac Chip": {"ability":"Rock Head","level":52 ,"item":"Hard Stone","moves":[ "Rock Slide", "Iron Tail", "Earthquake", "Double-Edge" ],"nature":"Lax"}
  ,"Magma Grunt #4 (Magma Hideout)": {"ability":"Rock Head","level":60 ,"item":"Bright Powder","moves":[ "Thunder Wave", "Head Smash", "Earthquake", "Iron Tail" ],"nature":"Hasty"}
  ,"Magma Grunt #6 (Magma Hideout)": {"ability":"Rock Head","level":61 ,"item":"Focus Band","moves":[ "Counter", "Head Smash", "Earthquake", "Iron Tail" ],"nature":"Adamant"}
@@ -58,7 +58,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Arbok":{"Magma Grunt #5 (Route 112)": {"ability":"Intimidate","level":27 ,"item":"King's Rock","moves":[ "Glare", "Sludge Bomb", "Earthquake", "Giga Drain" ]}
  ,"Youngster Deandre": {"ability":"Intimidate","level":43 ,"item":"Miracle Seed","moves":[ "Poison Fang", "Glare", "Earthquake", "Giga Drain"]}}
  ,"Arcanine":{"Magma Grunt #7 (Route 114)": {"ability":"Intimidate","level":35 ,"item":"Leftovers","moves":[ "Flamethrower", "Body Slam", "Crunch", "Morning Sun" ],"nature":"Brave"}
- ,"Magma Admin Tabitha ": {"ability":"Intimidate","level":38 ,"item":"Lum Berry","moves":[ "Overheat", "Extreme Speed", "Hidden Power Grass", "Wild Charge" ],"nature":"Brave"}
+ ,"Magma Admin Tabitha": {"ability":"Intimidate","level":38 ,"item":"Lum Berry","moves":[ "Overheat", "Extreme Speed", "Hidden Power Grass", "Wild Charge" ],"nature":"Brave"}
  ,"Leader Flannery": {"ability":"Intimidate","level":41 ,"item":"Leftovers","moves":[ "Wild Charge", "Heat Wave", "Solar Beam", "Extreme Speed" ],"nature":"Careful"}
  ,"Breeder George": {"ability":"Intimidate","level":42 ,"item":"Leftovers","moves":[ "Morning Sun", "Extreme Speed", "Overheat", "Hidden Power Grass" ],"nature":"Jolly"}
  ,"Pokéfan Vanessa": {"ability":"Intimidate","level":52 ,"item":"Blue Scarf","moves":[ "Sunny Day", "Overheat", "Overheat", "Morning Sun" ],"nature":"Bold"}
@@ -192,11 +192,11 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Magma Grunt #1 (Mossdeep Space Center)": {"ability":"Forecast","level":67 ,"item":"Lum Berry","moves":[ "Sunny Day", "Fire Blast", "Ice Beam", "Thunderbolt" ],"nature":"Adamant"}
  ,"Aqua Grunt #3 (Seafloor Cavern)": {"ability":"Forecast","level":67 ,"item":"Scope Lens","moves":[ "Thunder", "Weather Ball", "Ice Beam", "Attract" ],"nature":"Naughty"}
  ,"Leader #1 Wallace": {"ability":"Forecast","level":76 ,"item":"Lum Berry","moves":[ "Thunder", "Ice Beam", "Weather Ball", "Hidden Power Grass" ],"nature":"Sassy"}
- ,"Leader #2 Juan ": {"ability":"Forecast","level":76 ,"item":"Lum Berry","moves":[ "Weather Ball", "Ice Beam", "Thunder", "Hidden Power Grass" ],"nature":"Modest"}
+ ,"Leader #2 Juan": {"ability":"Forecast","level":76 ,"item":"Lum Berry","moves":[ "Weather Ball", "Ice Beam", "Thunder", "Hidden Power Grass" ],"nature":"Modest"}
  ,"Parasol Lady Kayley": {"ability":"Forecast","level":74 ,"item":"Quick Claw","moves":[ "Hydro Pump", "Ice Beam", "Thunder", "Rain Dance" ],"nature":"Jolly"}
  ,"Fisherman Wayne": {"ability":"Forecast","level":70 ,"item":"Leppa Berry","moves":[ "Hydro Pump", "Fire Blast", "Ice Beam", "Thunderbolt" ],"nature":"Quiet"}}
   ,"Caterpie":{"Bug Catcher Rick": {"ability":"Shield Dust","level":5 ,"item":"Choice Band","moves":[ "Tackle" ],"nature":"Hasty"}}
- ,"Celebi":{"Trainer Red (3) ": {"ability":"Natural Cure","level":88 ,"item":"Leftovers","moves":[ "Recover", "Giga Drain", "Ancientpower", "Hidden Power Fire" ],"nature":"Naive"}}
+ ,"Celebi":{"Trainer Red (3)": {"ability":"Natural Cure","level":88 ,"item":"Leftovers","moves":[ "Recover", "Giga Drain", "Ancientpower", "Hidden Power Fire" ],"nature":"Naive"}}
  ,"Chansey":{"Breeder Lydia": {"ability":"Natural Cure","level":22 ,"item":"Lucky Punch","moves":[ "Double-Edge", "Brick Break", "Soft-Boiled", "Water Pulse" ],"nature":"Naive"}
  ,"Magma Grunt #6 (Route 114)": {"ability":"Natural Cure","level":34 ,"item":"Leftovers","moves":[ "Soft-Boiled", "Counter", "Toxic", "Seismic Toss" ],"nature":"Calm"}}
  ,"Charizard":{"Trainer Red": {"ability":"Blaze","level":36 ,"item":"Lum Berry","moves":[ "Flamethrower", "Aerial Ace", "Dragon Claw", "Earthquake"]}
@@ -322,7 +322,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Cooltrainer Warren": {"ability":"Shadow Tag","level":70 ,"item":"Lum Berry","moves":[ "Transform" ],"nature":"Rash"}
  ,"Expert Shannon": {"ability":"Shadow Tag","level":87 ,"item":"Lum Berry","moves":[ "Transform" ],"nature":"Bold"}}
  ,"Dodrio":{"Magma Grunt #3 (Route 114)": {"ability":"Early Bird","level":34 ,"item":"Silk Scarf","moves":[ "Steel Wing", "Drill Peck", "Quick Attack", "Body Slam" ],"nature":"Calm"}
- ,"Magma Admin Tabitha ": {"ability":"Early Bird","level":37 ,"item":"Lum Berry","moves":[ "Double-Edge", "Hidden Power Ground", "Quick Attack", "Drill Peck"]}
+ ,"Magma Admin Tabitha": {"ability":"Early Bird","level":37 ,"item":"Lum Berry","moves":[ "Double-Edge", "Hidden Power Ground", "Quick Attack", "Drill Peck"]}
  ,"Triathlete Jace": {"ability":"Early Bird","level":37 ,"item":"Lum Berry","moves":[ "Drill Peck", "Tri Attack", "Quick Attack", "Steel Wing" ],"nature":"Impish"}
  ,"Cooltrainer Jody": {"ability":"Early Bird","level":43 ,"item":"Silk Scarf","moves":[ "Double-Edge", "Drill Peck", "Quick Attack", "Hidden Power Fighting" ],"nature":"Rash"}
  ,"Bird Keeper Hugh": {"ability":"Early Bird","level":44 ,"item":"Silk Scarf","moves":[ "Drill Peck", "Hyper Beam", "Steel Wing", "Body Slam" ]}
@@ -369,10 +369,10 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Triathlete Jace": {"ability":"Arena Trap","level":37 ,"item":"Lum Berry","moves":[ "Earthquake", "Sludge Bomb", "Rock Slide", "Tri Attack" ],"nature":"Modest"}
  ,"Cooltrainer Jerome": {"ability":"Arena Trap","level":52 ,"item":"Choice Band","moves":[ "Earthquake" ],"nature":"Brave"}
  ,"Magma Grunt #5 (Magma Hideout)": {"ability":"Arena Trap","level":60 ,"item":"Bright Powder","moves":[ "Earthquake", "Sludge Bomb", "Ancientpower", "Tri Attack"]}
- ,"Expert Macey ": {"ability":"Arena Trap","level":69 ,"item":"Leftovers","moves":[ "Ancientpower", "Protect", "Substitute" ],"nature":"Naive"}
+ ,"Expert Macey": {"ability":"Arena Trap","level":69 ,"item":"Leftovers","moves":[ "Ancientpower", "Protect", "Substitute" ],"nature":"Naive"}
  ,"Triathlete Katelyn": {"ability":"Arena Trap","level":66 ,"item":"Choice Band","moves":[ "Tri Attack", "Slash", "Earthquake", "Rock Slide" ],"nature":"Hasty"}
  ,"Triathlete Chase": {"ability":"Arena Trap","level":66 ,"item":"Choice Band","moves":[ "Earthquake" ],"nature":"Impish"}
- ,"Collector Ed ": {"ability":"Arena Trap","level":74 ,"item":"Choice Band","moves":[ "Earthquake" ],"nature":"Naughty"}
+ ,"Collector Ed": {"ability":"Arena Trap","level":74 ,"item":"Choice Band","moves":[ "Earthquake" ],"nature":"Naughty"}
  ,"Expert Felix": {"ability":"Arena Trap","level":89 ,"item":"Lum Berry","moves":[ "Earth Power", "Ancientpower", "Sludge Bomb", "Hidden Power Ghost" ],"nature":"Impish"}}
 ,"Dunsparce":{"Bug Maniac Angelo": {"ability":"Serene Grace","level":26 ,"item":"Blackglasses","moves":[ "Thunder Wave", "Headbutt", "Rock Slide", "Bite" ],"nature":"Quiet"}
 ,"Magma Grunt #5 (Route 112)": {"ability":"Serene Grace","level":27 ,"item":"Leftovers","moves":[ "Glare", "Headbutt", "Rock Slide", "Bite" ],"nature":"Modest"}}
@@ -456,7 +456,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Fearow":{"Bird Keeper Coby": {"ability":"Early Bird","level":33 ,"item":"Silk Scarf","moves":[ "Aerial Ace", "Steel Wing", "Quick Attack", "Secret Power"]}
  ,"Magma Grunt #8 (Route 114)": {"ability":"Early Bird","level":36 ,"item":"Silk Scarf","moves":[ "Drill Peck", "Drill Run", "Tri Attack", "Quick Attack" ],"nature":"Lonely"}
  ,"Triathlete Mary": {"ability":"Early Bird","level":42 ,"item":"Scope Lens","moves":[ "Drill Peck", "Drill Run", "Slash", "Sleep Talk"]}
- ,"Bird Keeper Josue ": {"ability":"Early Bird","level":66 ,"item":"Scope Lens","moves":[ "Steel Wing", "Tri Attack", "Drill Peck", "Drill Run" ],"nature":"Modest"}
+ ,"Bird Keeper Josue": {"ability":"Early Bird","level":66 ,"item":"Scope Lens","moves":[ "Steel Wing", "Tri Attack", "Drill Peck", "Drill Run" ],"nature":"Modest"}
  ,"Bird Keeper Perry": {"ability":"Early Bird","level":42 ,"item":"Lum Berry","moves":[ "Quick Attack", "Drill Run", "Tri Attack", "Fly"]}
  ,"Bird Keeper Phil": {"ability":"Early Bird","level":45 ,"item":"Choice Band","moves":[ "Drill Peck", "Quick Attack", "Hyper Beam", "Steel Wing"]}
  ,"Bird Keeper Colin": {"ability":"Early Bird","level":51 ,"item":"Silk Scarf","moves":[ "Steel Wing", "Drill Peck", "Return", "Drill Run" ],"nature":"Relaxed"}}
@@ -481,7 +481,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Ranger Lorenzo": {"ability":"Flame Body","level":52 ,"item":"Metal Coat","moves":[ "Fire Blast", "Body Slam", "Shadow Ball", "Iron Tail" ]}
  ,"Gentleman Walter": {"ability":"Flame Body","level":53 ,"item":"Leftovers","moves":[ "Fire Blast", "Shadow Ball", "Iron Tail", "Baton Pass" ],"nature":"Gentle"}
  ,"Magma Grunt #13 (Magma Hideout)": {"ability":"Flame Body","level":63 ,"item":"Quick Claw","moves":[ "Overheat", "Superpower", "Shadow Ball", "Double-Edge" ],"nature":"Brave"}}
- ,"Flygon":{"Magma Admin Tabitha ": {"ability":"Levitate","level":37 ,"item":"Lum Berry","moves":[ "Earthquake", "Giga Drain", "Signal Beam", "Rock Slide"]}
+ ,"Flygon":{"Magma Admin Tabitha": {"ability":"Levitate","level":37 ,"item":"Lum Berry","moves":[ "Earthquake", "Giga Drain", "Signal Beam", "Rock Slide"]}
  ,"Leader Winona": {"ability":"Levitate","level":55 ,"item":"Lum Berry","moves":[ "Earthquake", "Dragon Claw", "Flamethrower", "Giga Drain" ],"nature":"Impish"}
  ,"Bug Maniac Jeffrey": {"ability":"Levitate","level":50 ,"item":"Dragon Fang","moves":[ "Dragon Claw", "Flamethrower", "Earthquake", "Rock Slide" ],"nature":"Bold"}
  ,"Cooltrainer Marcel": {"ability":"Levitate","level":51 ,"item":"Lum Berry","moves":[ "Earthquake", "Giga Drain", "Flamethrower", "Rock Slide" ],"nature":"Modest"}
@@ -601,7 +601,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Hex Maniac Leah": {"ability":"Thick Fat","level":52 ,"item":"Leftovers","moves":[ "Psychic", "Signal Beam", "Confuse Ray", "Attract" ],"nature":"Impish"}
  ,"Psychic Blake": {"ability":"Thick Fat","level":66 ,"item":"Leftovers","moves":[ "Calm Mind", "Psychic", "Fire Punch", "Thunder Punch" ],"nature":"Timid"}
  ,"Swimmerm Clarence": {"ability":"Thick Fat","level":66 ,"item":"Silverpowder","moves":[ "Psychic", "Thunder Wave", "Fire Punch", "Signal Beam" ],"nature":"Lonely"}
- ,"Psychic Cameron ": {"ability":"Thick Fat","level":74 ,"item":"Quick Claw","moves":[ "Reflect", "Psychic", "Fire Punch", "Thunder Punch" ],"nature":"Calm"}
+ ,"Psychic Cameron": {"ability":"Thick Fat","level":74 ,"item":"Quick Claw","moves":[ "Reflect", "Psychic", "Fire Punch", "Thunder Punch" ],"nature":"Calm"}
  ,"Cooltrainer Albert": {"ability":"Thick Fat","level":81 ,"item":"Leftovers","moves":[ "Calm Mind", "Psychic", "Fire Punch", "Thunder Punch" ],"nature":"Quiet"}
  ,"Expert Quincy": {"ability":"Thick Fat","level":87 ,"item":"Leftovers","moves":[ "Toxic", "Protect", "Psychic", "Fire Punch" ],"nature":"Impish"}}
  ,"Gulpin":{"Hiker Clark": {"ability":"Liquid Ooze","level":10 ,"item":"Berry Juice","moves":[ "Acid", "Swallow", "Toxic", "Secret Power" ],"nature":"Modest","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}
@@ -676,7 +676,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #2 (Aqua Hideout)": {"ability":"Insomnia","level":61 ,"item":"King's Rock","moves":[ "Thunder Wave", "Psychic", "Brick Break", "Shadow Ball"]}
  ,"Aqua Grunt #3 (Aqua Hideout)": {"ability":"Insomnia","level":62 ,"item":"Leftovers","moves":[ "Counter", "Brick Break", "Shadow Ball", "Psychic" ],"nature":"Rash"}
  ,"Psychic Blake": {"ability":"Insomnia","level":66 ,"item":"Leftovers","moves":[ "Calm Mind", "Psychic", "Fire Punch", "Thunder Punch" ],"nature":"Adamant"}
- ,"Psychic Cameron ": {"ability":"Insomnia","level": 74 ,"item":"Quick Claw","moves":[ "Psychic", "Reflect", "Brick Break", "Shadow Ball" ],"nature":"Modest"}
+ ,"Psychic Cameron": {"ability":"Insomnia","level": 74 ,"item":"Quick Claw","moves":[ "Psychic", "Reflect", "Brick Break", "Shadow Ball" ],"nature":"Modest"}
   ,"Expert Dianne": {"ability":"Insomnia","level":86 ,"item":"Leftovers","moves":[ "Thunder Wave", "Psychic", "Signal Beam", "Fire Punch" ],"nature":"Rash"}}
  ,"Igglybuff":{"Lass Tiana": {"ability":"Cute Charm","level":6,"moves":[ "Present" ],"nature":"Lax"}}
   ,"Illumise":{"Twins Amy & Liv": {"ability":"Oblivious","level":17,"moves":[ "Silver Wind", "Giga Drain", "Water Pulse", "Flatter" ],"nature":"Gentle","ivs":{"hp":20,"at":20,"sa":20,"sp":20, "df":20, "sd":20}}
@@ -706,7 +706,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Magma Grunt #6 (Magma Hideout)": {"ability":"Chlorophyll","level":59 ,"item":"Leftovers","moves":[ "Leech Seed", "Sleep Powder", "Protect", "Substitute" ],"nature":"Gentle"}
  ,"Magma Grunt #13 (Magma Hideout)": {"ability":"Chlorophyll","level":63 ,"item":"Leftovers","moves":[ "Attract", "Stun Spore", "Substitute", "Leech Seed" ],"nature":"Naughty"}
  ,"Cooltrainer Debra": {"ability":"Chlorophyll","level":99 ,"item":"Lum Berry","moves":[ "Follow Me", "Synthesis" ],"nature":"Careful"}
- ,"Ninja Boy Jonas ": {"ability":"Chlorophyll","level":75 ,"item":"Lum Berry","moves":[ "Encore", "Sleep Powder", "Leech Seed", "Protect" ],"nature":"Modest"}}
+ ,"Ninja Boy Jonas": {"ability":"Chlorophyll","level":75 ,"item":"Lum Berry","moves":[ "Encore", "Sleep Powder", "Leech Seed", "Protect" ],"nature":"Modest"}}
  ,"Jynx":{"Guitarist Dalton": {"ability":"Oblivious","level":42 ,"item":"Lum Berry","moves":[ "Perish Song", "Mean Look", "Protect", "Ice Beam"]}
  ,"Parasol Lady Clarissa": {"ability":"Oblivious","level":50 ,"item":"Silverpowder","moves":[ "Lovely Kiss", "Psychic", "Ice Beam", "Signal Beam"]}
  ,"Aqua Grunt #4 (Mt. Pyre)": {"ability":"Oblivious","level":50 ,"item":"Scope Lens","moves":[ "Blizzard", "Psychic", "Hidden Power Fire", "Fake Tears" ],"nature":"Lonely"}
@@ -746,7 +746,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #5 (Seafloor Cavern)": {"ability":"Swift Swim","level":67 ,"item":"Leftovers","moves":[ "Dragon Dance", "Hidden Power Ground", "Body Slam", "Octazooka" ],"nature":"Sassy"}
  ,"Aqua Leader Archie": {"ability":"Swift Swim","level":75 ,"item":"Lum Berry","moves":[ "Octazooka", "Draco Meteor", "Signal Beam", "Yawn" ],"nature":"Jolly"}
  ,"Leader #1 Wallace": {"ability":"Swift Swim","level":76 ,"item":"Lum Berry","moves":[ "Octazooka", "Ice Beam", "Draco Meteor", "Hidden Power Ground" ],"nature":"Calm"}
- ,"Leader #2 Juan ": {"ability":"Swift Swim","level":77 ,"item":"Lum Berry","moves":[ "Octazooka", "Ice Beam", "Draco Meteor", "Hidden Power Ground" ],"nature":"Naive"}
+ ,"Leader #2 Juan": {"ability":"Swift Swim","level":77 ,"item":"Lum Berry","moves":[ "Octazooka", "Ice Beam", "Draco Meteor", "Hidden Power Ground" ],"nature":"Naive"}
  ,"Hex Maniac Kindra": {"ability":"Swift Swim","level":74 ,"item":"Quick Claw","moves":[ "Dragon Breath", "Yawn", "Octazooka", "Ice Beam" ],"nature":"Lax"}
  ,"Cooltrainer Caroline": {"ability":"Swift Swim","level":85 ,"item":"Leftovers","moves":[ "Muddy Water", "Yawn", "Ice Beam", "Signal Beam" ],"nature":"Naive"}
  ,"Elite Four Drake": {"ability":"Swift Swim","level":100 ,"item":"Lum Berry","moves":[ "Hidden Power Fighting", "Octazooka", "Draco Meteor", "Ice Beam" ],"nature":"Sassy"}}
@@ -770,7 +770,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #8 (Aqua Hideout)": {"ability":"Volt Absorb","level":64 ,"item":"Leftovers","moves":[ "Rain Dance", "Hydro Pump", "Thunder", "Ice Beam" ],"nature":"Naughty"}
  ,"Aqua Grunt #3 (Seafloor Cavern)": {"ability":"Volt Absorb","level":67 ,"item":"Bright Powder","moves":[ "Thunder", "Confuse Ray", "Ice Beam", "Waterfall" ],"nature":"Gentle"}
  ,"Ranger Andrea": {"ability":"Volt Absorb","level":72 ,"item":"Lum Berry","moves":[ "Thunder", "Surf", "Ice Beam", "Confuse Ray" ],"nature":"Gentle"}
- ,"Leader #2 Juan ": {"ability":"Volt Absorb","level":77 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Thunder", "Ice Beam", "Hidden Power Grass" ],"nature":"Quiet"}
+ ,"Leader #2 Juan": {"ability":"Volt Absorb","level":77 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Thunder", "Ice Beam", "Hidden Power Grass" ],"nature":"Quiet"}
  ,"Fisherman Ronald": {"ability":"Volt Absorb","level":66 ,"item":"Quick Claw","moves":[ "Confuse Ray", "Thunder Wave", "Hydro Pump", "Thunderbolt"]}
  ,"Expert Samuel": {"ability":"Volt Absorb","level":84 ,"item":"Leftovers","moves":[ "Thunder Wave", "Thunderbolt", "Waterfall", "Ice Beam" ],"nature":"Lax"}}
   ,"Lapras":{"Aqua Admin Shelly 1": {"ability":"Shell Armor","level":49 ,"item":"Leftovers","moves":[ "Surf", "Ice Beam", "Thunderbolt", "Drill Run" ],"nature":"Impish"}
@@ -779,7 +779,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Hex Maniac Sylvia": {"ability":"Shell Armor","level":69 ,"item":"Quick Claw","moves":[ "Perish Song", "Sleep Talk", "Rest" ],"nature":"Quiet"}
  ,"Aqua Admin Shelly 2": {"ability":"Shell Armor","level":72 ,"item":"Lum Berry","moves":[ "Drill Run", "Hydro Pump", "Ice Beam", "Thunder"]}
  ,"Leader #1 Wallace": {"ability":"Shell Armor","level":76 ,"item":"Lum Berry","moves":[ "Thunder", "Surf", "Ice Beam", "Hidden Power Bug"]}
- ,"Leader #2 Juan ": {"ability":"Shell Armor","level":76 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Thunder", "Ice Beam", "Hidden Power Grass" ],"nature":"Brave"}
+ ,"Leader #2 Juan": {"ability":"Shell Armor","level":76 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Thunder", "Ice Beam", "Hidden Power Grass" ],"nature":"Brave"}
  ,"Expert Makayla": {"ability":"Shell Armor","level":67,"moves":[ "Hydro Pump", "Roar", "Double-Edge", "Ice Beam" ],"nature":"Naughty"}
  ,"Trainer Red (3)": {"ability":"Shell Armor","level":89 ,"item":"Leftovers","moves":[ "Ice Beam", "Surf", "Thunderbolt", "Megahorn" ],"nature":"Quiet"}
   ,"Elite Four Glacia": {"ability":"Shell Armor","level":100 ,"item":"Lum Berry","moves":[ "Ice Shard", "Thunder", "Ice Beam", "Hydro Pump" ],"nature":"Mild"}}
@@ -823,7 +823,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #2 (Seafloor Cavern)": {"ability":"Swift Swim","level":67 ,"item":"Leftovers","moves":[ "Toxic", "Ice Beam", "Leech Seed", "Protect" ],"nature":"Jolly"}
  ,"Aqua Admin Shelly 2": {"ability":"Swift Swim","level":72 ,"item":"Leftovers","moves":[ "Leech Seed", "Waterfall", "Protect", "Ice Beam"]}
  ,"Leader #1 Wallace": {"ability":"Swift Swim","level":76 ,"item":"Lum Berry","moves":[ "Surf", "Giga Drain", "Grass Whistle", "Ice Beam"]}
- ,"Leader #2 Juan ": {"ability":"Swift Swim","level":76 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Giga Drain", "Thunder Punch", "Ice Beam"]}
+ ,"Leader #2 Juan": {"ability":"Swift Swim","level":76 ,"item":"Lum Berry","moves":[ "Hydro Pump", "Giga Drain", "Thunder Punch", "Ice Beam"]}
  ,"Guitarist Fernando": {"ability":"Swift Swim","level":74 ,"item":"Quick Claw","moves":[ "Giga Drain", "Teeter Dance", "Waterfall", "Ice Beam" ],"nature":"Modest"}
  ,"Elite Four Phoebe": {"ability":"Swift Swim","level":100 ,"item":"Lum Berry","moves":[ "Grass Whistle", "Giga Drain", "Ice Beam", "Surf"]}}
  ,"Lunatone":{"Leader Roxanne": {"ability":"Levitate","level":15 ,"item":"Lum Berry","moves":[ "Hypnosis", "Moonlight", "Confusion", "Rock Slide" ],"nature":"Lonely"}
@@ -881,7 +881,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Black Belt Cristian": {"ability":"Thick Fat","level":16 ,"item":"Sitrus Berry","moves":[ "Bulk Up", "Revenge", "Rock Slide", "Shadow Punch" ],"nature":"Impish"}}
  ,"Manectric":{"Leader Wattson": {"ability":"Intimidate","level":29 ,"item":"Lum Berry","moves":[ "Thunderbolt", "Flamethrower", "Crunch", "Thunder Wave" ],"nature":"Hasty"}
  ,"Magma Grunt #7 (Route 114)": {"ability":"Intimidate","level":35 ,"item":"King's Rock","moves":[ "Thunderbolt", "Flamethrower", "Crunch", "Thunder Wave"]}
- ,"Magma Admin Tabitha ": {"ability":"Intimidate","level":37 ,"item":"Lum Berry","moves":[ "Hidden Power Water", "Crunch", "Overheat", "Thunderbolt" ],"nature":"Jolly"}
+ ,"Magma Admin Tabitha": {"ability":"Intimidate","level":37 ,"item":"Lum Berry","moves":[ "Hidden Power Water", "Crunch", "Overheat", "Thunderbolt" ],"nature":"Jolly"}
  ,"Beauty Danielle": {"ability":"Intimidate","level":38 ,"item":"Charcoal","moves":[ "Overheat", "Thunderbolt", "Crunch", "Thunder Wave" ],"nature":"Calm"}
  ,"Ranger Catherine": {"ability":"Intimidate","level":45 ,"item":"Lum Berry","moves":[ "Thunder", "Crunch", "Quick Attack", "Iron Tail" ],"nature":"Sassy"}
  ,"Ranger Jenna": {"ability":"Intimidate","level":51 ,"item":"Silk Scarf","moves":[ "Thunderbolt", "Crunch", "Quick Attack", "Flamethrower" ],"nature":"Gentle"}
@@ -1340,7 +1340,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Shedinja":{"Ninja Boy Lao": {"ability":"Wonder Guard","level":36 ,"item":"Lum Berry","moves":[ "Shadow Sneak", "Signal Beam", "Giga Drain", "Toxic"]}
  ,"Ninja Boy Riley": {"ability":"Wonder Guard","level":51 ,"item":"Focus Band","moves":[ "Shadow Sneak", "Shadow Ball", "X-scissors", "Return" ],"nature":"Naive"}
  ,"Dragon Tamer Sora": {"ability":"Wonder Guard","level":50 ,"item":"Lum Berry","moves":[ "Signal Beam", "Shadow Sneak", "Hidden Power Rock", "Shadow Ball" ],"nature":"Quiet"}
- ,"Ninja Boy Jonas ": {"ability":"Wonder Guard","level":77 ,"item":"Lum Berry","moves":[ "Protect", "Shadow Ball", "Signal Beam", "Toxic"]}}
+ ,"Ninja Boy Jonas": {"ability":"Wonder Guard","level":77 ,"item":"Lum Berry","moves":[ "Protect", "Shadow Ball", "Signal Beam", "Toxic"]}}
  ,"Shelgon":{"Magma Grunt #3 (Route 112)": {"ability":"Rock Head","level":27 ,"item":"Shell Bell","moves":[ "Dragon Breath", "Flamethrower", "Dragon Rage", "Body Slam" ],"nature":"Hasty"}
  ,"Dragon Tamer Lawrence": {"ability":"Rock Head","level":32 ,"item":"Dragon Fang","moves":[ "Double-Edge", "Dragon Claw", "Dragon Rage", "Crunch"]}
  , "Magma Grunt #5 (Route 114)": {"ability":"Rock Head","level":36 ,"item":"Lum Berry","moves":[ "Double-Edge", "Brick Break", "Dragon Dance", "Rock Slide" ],"nature":"Lonely"}}
@@ -1439,7 +1439,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Magma Grunt #16 (Magma Hideout)": {"ability":"Levitate","level":63 ,"item":"Lum Berry","moves":[ "Light Screen", "Explosion", "Shadow Ball", "Will-O-Wisp" ],"nature":"Mild"}
  ,"Psychic Preston": {"ability":"Levitate","level":66 ,"item":"Lum Berry","moves":[ "Signal Beam", "Earthquake", "Ancientpower", "Light Screen" ],"nature":"Timid"}
  ,"Magma Grunt #3 (Mossdeep Space Center)": {"ability":"Levitate","level":67 ,"item":"Focus Band","moves":[ "Swagger", "Earthquake", "Shadow Ball", "Ancientpower" ],"nature":"Mild"}
- ,"Psychic Cameron ": {"ability":"Levitate","level": 74 ,"item":"Quick Claw","moves":[ "Light Screen", "Ancientpower", "Earth Power", "Shadow Ball" ],"nature":"Mild"}
+ ,"Psychic Cameron": {"ability":"Levitate","level": 74 ,"item":"Quick Claw","moves":[ "Light Screen", "Ancientpower", "Earth Power", "Shadow Ball" ],"nature":"Mild"}
  ,"Cooltrainer Alexa": {"ability":"Levitate","level":74 ,"item":"Salac Berry","moves":[ "Explosion", "Ancientpower", "Earthquake", "Shadow Ball" ],"nature":"Adamant"}
  ,"Cooltrainer Hope": {"ability":"Levitate","level":81 ,"item":"Leftovers","moves":[ "Cosmic Power", "Ancientpower", "Morning Sun", "Baton Pass"]}}
  ,"Spearow":{"Tuber Chandler": {"ability":"Keen Eye","level":16,"moves":["Drill Run", "Quick Attack", "Aerial Ace" ],"nature":"Calm","ivs":{"hp":24,"at":24,"sa":24,"sp":24, "df":24, "sd":24}}}
@@ -1607,7 +1607,7 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Aqua Grunt #8 (Mt. Pyre)": {"ability":"Swift Swim","level":53 ,"item":"Leftovers","moves":[ "Toxic", "Protect", "Wish", "Muddy Water" ],"nature":"Naughty"}
  ,"Aqua Admin Shelly 2": {"ability":"Swift Swim","level":73 ,"item":"Leftovers","moves":[ "Sing", "Muddy Water", "Ice Beam", "Hidden Power Grass" ],"nature":"Adamant"}
  ,"Expert Annika": {"ability":"Swift Swim","level":73 ,"item":"Leftovers","moves":[ "Sing", "Signal Beam", "Muddy Water", "Ice Beam"]}
- ,"Leader #2 Juan ": {"ability":"Swift Swim","level":77 ,"item":"Lum Berry","moves":[ "Sing", "Ice Beam", "Hydro Pump", "Hidden Power Grass" ],"nature":"Timid"}
+ ,"Leader #2 Juan": {"ability":"Swift Swim","level":77 ,"item":"Lum Berry","moves":[ "Sing", "Ice Beam", "Hydro Pump", "Hidden Power Grass" ],"nature":"Timid"}
  ,"Cooltrainer Hope": {"ability":"Swift Swim","level":81 ,"item":"Leftovers","moves":[ "Muddy Water", "Ice Beam", "Baton Pass", "Wish" ],"nature":"Calm"}
  ,"Trainer Wally": {"ability":"Swift Swim","level":85 ,"item":"Leftovers","moves":[ "Muddy Water", "Hidden Power Grass", "Ice Beam", "Quick Attack" ],"nature":"Adamant"}}
  ,"Venomoth":{"Magma Grunt #5 (Route 112)": {"ability":"Compoundeyes","level":27 ,"item":"Lum Berry","moves":[ "Stun Spore", "Signal Beam", "Psychic", "Giga Drain" ],"nature":"Bold"}
@@ -1688,14 +1688,14 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Bug Catcher Kent": {"ability":"Shield Dust","level":100 ,"item":"Poison Barb","moves":[ "Poison Sting", "String Shot" ],"nature":"Calm"}}
  ,"Weepinbell":{"Breeder Isaac": {"ability":"Chlorophyll","level":23 ,"item":"Silk Scarf","moves":[ "Razor Leaf", "Sludge Bomb", "Secret Power", "Stun Spore" ],"nature":"Lonely"}}
  ,"Weezing":{"Magma Grunt #1 (Route 114)": {"ability":"Levitate","level":35 ,"item":"Leftovers","moves":[ "Sludge Bomb", "Will-O-Wisp", "Shadow Ball", "Flamethrower" ],"nature":"Lonely"}
- ,"Magma Admin Tabitha ": {"ability":"Levitate","level":37 ,"item":"Lum Berry","moves":[ "Explosion", "Gunk Shot", "Flamethrower", "Hidden Power Grass"]}
+ ,"Magma Admin Tabitha": {"ability":"Levitate","level":37 ,"item":"Lum Berry","moves":[ "Explosion", "Gunk Shot", "Flamethrower", "Hidden Power Grass"]}
  ,"Ruin Maniac Eli": {"ability":"Levitate","level":37 ,"item":"Lum Berry","moves":[ "Flamethrower", "Sludge Bomb", "Will-O-Wisp", "Thunderbolt" ],"nature":"Impish"}
  ,"Ninja Boy Takashi": {"ability":"Levitate","level":45 ,"item":"Lum Berry","moves":[ "Destiny Bond", "Sludge Bomb", "Thunder", "Shadow Ball" ],"nature":"Impish"}
  ,"Ninja Boy Keigo": {"ability":"Levitate","level":50 ,"item":"Magnet","moves":[ "Thunder", "Sludge Bomb", "Destiny Bond", "Shadow Ball" ],"nature":"Sassy"}
  ,"Magma Grunt #13 (Magma Hideout)": {"ability":"Levitate","level":62 ,"item":"Lum Berry","moves":[ "Destiny Bond", "Explosion", "Fire Blast", "Gunk Shot" ],"nature":"Lonely"}
  ,"Magma Grunt #16 (Magma Hideout)": {"ability":"Levitate","level":63 ,"item":"Lum Berry","moves":[ "Explosion", "Gunk Shot", "Fire Blast", "Shadow Ball"]}
  ,"Magma Grunt #5 (Mossdeep Space Center)": {"ability":"Levitate","level":66 ,"item":"Scope Lens","moves":[ "Explosion", "Gunk Shot", "Shadow Ball", "Fire Blast"]}
- ,"Ninja Boy Jonas ": {"ability":"Levitate","level":74 ,"item":"Salac Berry","moves":[ "Fire Blast", "Gunk Shot", "Shadow Ball", "Destiny Bond" ],"nature":"Careful"}
+ ,"Ninja Boy Jonas": {"ability":"Levitate","level":74 ,"item":"Salac Berry","moves":[ "Fire Blast", "Gunk Shot", "Shadow Ball", "Destiny Bond" ],"nature":"Careful"}
  ,"Cooltrainer Caroline": {"ability":"Levitate","level":88 ,"item":"Lum Berry","moves":[ "Explosion", "Gunk Shot", "Shadow Ball", "Flamethrower" ],"nature":"Adamant"}}
  ,"Whiscash":{"Fisherman Wade": {"ability":"Swift Swim","level":42 ,"item":"Mystic Water","moves":[ "Earthquake", "Surf", "Rock Slide", "Ice Beam" ],"nature":"Gentle"}
  ,"Aqua Grunt #3 (Weather Institute)": {"ability":"Swift Swim","level":46 ,"item":"Lum Berry","moves":[ "Dragon Dance", "Earthquake", "Hidden Power Flying", "Rock Slide" ],"nature":"Jolly"}
@@ -1726,10 +1726,10 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Magma Grunt #7 (Magma Hideout)": {"ability":"Shadow Tag","level":58 ,"item":"Leftovers","moves":[ "Counter", "Encore", "Mirror Coat", "Destiny Bond" ],"nature":"Modest"}
  ,"Magma Grunt #12 (Magma Hideout)": {"ability":"Shadow Tag","level":61 ,"item":"Leftovers","moves":[ "Counter", "Mirror Coat", "Destiny Bond", "Encore" ],"nature":"Careful"}
  ,"Magma Grunt #16 (Magma Hideout)": {"ability":"Shadow Tag","level":62 ,"item":"Leftovers","moves":[ "Counter", "Mirror Coat", "Safeguard", "Destiny Bond" ],"nature":"Naughty"}
- ,"Expert Macey ": {"ability":"Shadow Tag","level":69 ,"item":"Lum Berry","moves":[ "Encore", "Mirror Coat", "Destiny Bond", "Counter" ],"nature":"Lonely"}
+ ,"Expert Macey": {"ability":"Shadow Tag","level":69 ,"item":"Lum Berry","moves":[ "Encore", "Mirror Coat", "Destiny Bond", "Counter" ],"nature":"Lonely"}
  ,"Magma Grunt #4 (Mossdeep Space Center)": {"ability":"Shadow Tag","level":66 ,"item":"Leftovers","moves":[ "Counter", "Mirror Coat", "Encore", "Destiny Bond" ],"nature":"Hasty"}
  ,"Expert Makayla": {"ability":"Shadow Tag","level":68,"moves":[ "Counter", "Mirror Coat", "Safeguard", "Destiny Bond" ],"nature":"Timid"}
- ,"Collector Ed ": {"ability":"Shadow Tag","level":74 ,"item":"Leftovers","moves":[ "Encore", "Counter", "Mirror Coat", "Destiny Bond" ],"nature":"Lax"}
+ ,"Collector Ed": {"ability":"Shadow Tag","level":74 ,"item":"Leftovers","moves":[ "Encore", "Counter", "Mirror Coat", "Destiny Bond" ],"nature":"Lax"}
  ,"Expert Edgar": {"ability":"Shadow Tag","level":86 ,"item":"Leftovers","moves":[ "Encore", "Mirror Coat", "Counter", "Destiny Bond"]}}
  ,"Wooper":{"Fisherman Elliot": {"ability":"Water Absorb","level":15,"moves":["Magnitude", "Rock Tomb", "Recover" ]}}
  ,"Wurmple":{"Bug Catcher Rick": {"ability":"Shield Dust","level":5 ,"item":"Poison Barb","moves":[ "Tackle", "Poison Sting", "String Shot"],"ivs":{"hp":15,"at":15,"sa":15,"sp":15, "df":15, "sd":15}}
@@ -1737,10 +1737,10 @@ var SETDEX_ADV = {"Abra":{ "Psychic Edward": {"ability":"Synchronize","level":18
  ,"Bug Maniac Brent": {"ability":"Shield Dust","level":100 ,"item":"Leftovers","moves":[ "Tackle", "String Shot", "Poison Sting" ],"nature":"Bold"}}
  ,"Wynaut":{"Battle Girl Lilith": {"ability":"Shadow Tag","level":15 ,"item":"Lum Berry","moves":[ "Counter", "Mirror Coat", "Tickle", "Safeguard"]}
  ,"Aqua Grunt #2 (Slateport City)": {"ability":"Shadow Tag","level":17 ,"item":"Sitrus Berry","moves":[ "Mirror Coat", "Counter", "Destiny Bond"]}
- ,"Expert Macey ": {"ability":"Shadow Tag","level":100 ,"item":"Leftovers","moves":[ "Counter", "Mirror Coat", "Encore", "Destiny Bond" ],"nature":"Gentle"}
- ,"Collector Ed ": {"ability":"Shadow Tag","level":7 ,"item":"Quick Claw","moves":[ "Destiny Bond" ],"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
+ ,"Expert Macey": {"ability":"Shadow Tag","level":100 ,"item":"Leftovers","moves":[ "Counter", "Mirror Coat", "Encore", "Destiny Bond" ],"nature":"Gentle"}
+ ,"Collector Ed": {"ability":"Shadow Tag","level":7 ,"item":"Quick Claw","moves":[ "Destiny Bond" ],"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0, "df":0, "sd":0}}}
  ,"Xatu":{"Magma Grunt #6 (Route 114)": {"ability":"Early Bird","level":34 ,"item":"King's Rock","moves":[ "Psychic", "Drill Peck", "Giga Drain", "Confuse Ray" ],"nature":"Careful"}
- ,"Bird Keeper Josue ": {"ability":"Early Bird","level":66 ,"item":"Quick Claw","moves":[ "Psychic", "Wish", "Confuse Ray", "Drill Peck"]}
+ ,"Bird Keeper Josue": {"ability":"Early Bird","level":66 ,"item":"Quick Claw","moves":[ "Psychic", "Wish", "Confuse Ray", "Drill Peck"]}
  ,"Interviewers Gabby & Ty": {"ability":"Early Bird","level":45 ,"item":"Lum Berry","moves":[ "Psychic", "Drill Peck", "Giga Drain", "Quick Attack"]}
  ,"Bird Keeper Phil": {"ability":"Early Bird","level":45 ,"item":"Leftovers","moves":[ "Drill Peck", "Psychic", "Reflect", "Light Screen"]}
  ,"Interviewers Gabby & Ty": {"ability":"Early Bird","level":52 ,"item":"Lum Berry","moves":[ "Psychic", "Giga Drain", "Drill Peck", "Quick Attack" ],"nature":"Bold"}
