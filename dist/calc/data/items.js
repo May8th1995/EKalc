@@ -128,7 +128,7 @@ var GSC = [
     'Sun Stone',
     'Thick Club',
     'Thunder Stone',
-    'Twisted Spoon',
+    'Twistedspoon',
     'Ultra Ball',
     'Up-Grade',
     'Water Stone',

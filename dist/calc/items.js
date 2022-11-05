@@ -40,7 +40,7 @@ function getItemBoostType(item) {
             return 'Grass';
         case 'Mind Plate':
         case 'Odd Incense':
-        case 'Twisted Spoon':
+        case 'Twistedspoon':
             return 'Psychic';
         case 'Pixie Plate':
             return 'Fairy';
@@ -262,7 +262,7 @@ var FLING_30 = new Set([
     'Tart Apple',
     'Throat Spray',
     'Toxic Orb',
-    'Twisted Spoon',
+    'Twistedspoon',
     'Dragon Scale',
     'Energy Powder',
     'Fire Stone',
