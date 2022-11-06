@@ -287,7 +287,7 @@ var SETDEX_ADV = {
 		"Magma Grunt #6 (Route 114)":{"ability":"Natural Cure", "level":34, "item":"Leftovers", "moves":["Soft-Boiled", "Counter", "Toxic", "Seismic Toss"], "nature":"Calm"}
 	},
 	"Charizard":{
-		"Trainer Red":{"ability":"Blaze", "level":36, "item":"Lum Berry", "moves":["Flamethrower", "Aerial Ace", "Dragon Claw", "Earthquake"]},
+		"Trainer Red (2)":{"ability":"Blaze", "level":36, "item":"Lum Berry", "moves":["Flamethrower", "Aerial Ace", "Dragon Claw", "Earthquake"]},
 		"Leader Flannery":{"ability":"Blaze", "level":42, "item":"Lum Berry", "moves":["Heat Wave", "Earthquake", "Solar Beam", "Dragon Claw"], "nature":"Lonely"},
 		"Dragon Tamer Sora":{"ability":"Blaze", "level":53, "item":"Lum Berry", "moves":["Earthquake", "Fire Blast", "Thunder Punch", "Dragon Claw"], "nature":"Modest"},
 		"Trainer Brendan 4 (w/ Treecko)":{"ability":"Blaze", "level":59, "item":"Salac Berry", "moves":["Overheat", "Dragon Claw", "Hidden Power Grass", "Thunder Punch"], "nature":"Timid"},
@@ -554,7 +554,7 @@ var SETDEX_ADV = {
 		"Bug Maniac Jose":{"ability":"Shield Dust", "level":10, "item":"Sitrus Berry", "moves":["Iron Defense", "Light Screen", "Confusion", "Toxic"], "nature":"Impish"}
 	},
 	"Eevee":{
-		"Trainer Red(1)":{"ability":"Run Away", "level":9, "item":"Sitrus Berry", "moves":["Quick Attack", "Rest", "Snore", "Curse"], "nature":"Adamant"},
+		"Trainer Red (1)":{"ability":"Run Away", "level":9, "item":"Sitrus Berry", "moves":["Quick Attack", "Rest", "Snore", "Curse"], "nature":"Adamant"},
 		"Gentleman Walter":{"ability":"Run Away", "level":55, "item":"Bright Powder", "moves":["Substitute", "Body Slam", "Double Team", "Baton Pass"], "nature":"Jolly"}
 	},
 	"Ekans":{
