@@ -88,7 +88,7 @@ export function calculateADV(
     return result;
   }
 
-  desc.HPEVs = `${defender.evs.hp} HP`;
+  desc.HPEVs = `${defender.ivs.hp} HP`;
 
   const fixedDamage = handleFixedDamageMoves(attacker, move);
   if (fixedDamage) {
