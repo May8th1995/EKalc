@@ -1,3 +1,9 @@
+# EKalc
+
+This is a fork of the damage calculator that contains all the emerald kaizo stat changes, and has every trainer pre imported.
+Additionally some bugs are fixed, weather doesn't auto toggle off, and badge boost support is implemented.
+The working version can be seen at ![EKalc](https://may8th1995.github.io/EKalc/?gen=3)
+
 # Pokémon Damage Calculator
 
 ![Test Status](https://github.com/smogon/damage-calc/workflows/Tests/badge.svg)
