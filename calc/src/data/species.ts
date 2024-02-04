@@ -942,7 +942,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Victreebel: {bs: {sa: 100, sd: 70}},
   Vileplume: {bs: {sa: 110, sd: 90}},
   Voltorb: {bs: {sa: 55, sd: 55}, gender: 'N'},
-  Vulpix: {bs: {sa: 80, sd: 65}},
+  Vulpix: {bs: {sa: 65, sd: 65}},
   Wartortle: {bs: {sa: 65, sd: 80}},
   Weedle: {bs: {sa: 20, sd: 20}},
   Weepinbell: {bs: {sa: 85, sd: 45}},
